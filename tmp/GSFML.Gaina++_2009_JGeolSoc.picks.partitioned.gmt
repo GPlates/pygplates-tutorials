@@ -1,0 +1,892 @@
+# @VGMT1.0 @GPOINT
+# @R-7.5364/2.4187/63.2537/69.8093                                        
+# @Je4326
+# @Jp"+proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +no_defs "
+# @Jw"GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9108\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+# @NChron|AnomalyEnd|AnomEndQua|CruiseName|Reference|DOI|GeeK2007|IDMethod|PLATEID1|FROMAGE|TOAGE|NAME|DESCR|PLATEID2|GPGIM_TYPE|FEATURE_ID|RECON_METH|L_PLATE|R_PLATE|SPREAD_ASY|TYPE
+# @Tstring|string|integer|string|string|string|double|string|integer|double|double|string|string|integer|string|string|string|integer|integer|double|string
+# FEATURE_DATA
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-3d23827b-40f4-4f33-af1d-7be092ac3ee8||0|0|0|
+-1.87 68.22
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f078f190-d621-4b97-8a23-15892fb21275||0|0|0|
+-1.98 68.17
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-2a58fb1e-cd0b-40a3-acc1-28585e5c7628||0|0|0|
+-2.1 68.12
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-3041e5c1-3e3a-42ed-9b11-671b4c5467c4||0|0|0|
+-2.3 68.04
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-1fe31a52-23bf-4531-8333-e273e8baa340||0|0|0|
+-2.37 68.02
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-fdbf8fe9-0af7-4efb-a3a7-9d6e744f9158||0|0|0|
+-2.25 67.99
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-2a1cf207-f3dc-4570-817f-b9bf7ee57d17||0|0|0|
+-2.13 67.95
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-4feee41d-fb3e-478f-9b72-ec6c8b4ca90c||0|0|0|
+-0.87 67.49
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-aee0b673-dffd-4a55-8112-83bce466fcb5||0|0|0|
+-1.08 67.47
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-32efde4a-6714-4bf5-99d1-a8f298c0034c||0|0|0|
+-1.27 67.45
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-a286ce00-c959-41c0-a59d-d705e226fed7||0|0|0|
+-1.46 67.44
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d3c31b1e-7b4d-4ea6-a45f-2fad3d6b0add||0|0|0|
+-1.58 67.44
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-6937c1a6-1a6f-418d-9592-55421566280c||0|0|0|
+-1.62 67.49
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-32f61b73-ca90-4907-8153-46339caa3919||0|0|0|
+-1.66 67.53
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f4e65674-efdd-4351-baa0-7570a493fa4f||0|0|0|
+-2.5411 68.5528
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-30e013fc-44d4-4db0-a80c-9353c6e3ba75||0|0|0|
+-2.6947 68.5255
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-3a416d12-334c-4128-9e2a-3342c0857af7||0|0|0|
+-2.8267 68.5068
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-32cec1aa-0b8e-4894-924a-6fca462b2fee||0|0|0|
+-2.8904 68.481
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-c9626a87-2ea1-478b-962e-e646e050249c||0|0|0|
+-3.1334 68.4598
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-b8c468ec-42ff-4dc9-86bc-0f3540afcb29||0|0|0|
+-3.3275 68.4147
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-da6b84f1-614a-4aec-a413-a48f10bbf0a5||0|0|0|
+-3.7026 68.3898
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-bb4a4c20-2e7e-4235-af26-7b01e54d20b7||0|0|0|
+-3.8608 68.2791
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-6e0a9c65-39c1-444e-9502-19d468557194||0|0|0|
+0.35 66.94
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-0acf0242-9766-4952-ac37-24336673a07c||0|0|0|
+-0.03 66.82
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-3820b0f3-689c-4498-9196-71dfe7d11f3d||0|0|0|
+-0.2 66.81
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-01f1c968-27a0-4704-ab67-4d42821977d9||0|0|0|
+-0.5 66.72
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-8308d7bc-5224-4560-97b1-11f55d32bcfd||0|0|0|
+-3.1918 68.8451
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-0b2ea389-3d16-409c-ab77-ad54d6a456e7||0|0|0|
+-3.3402 68.7762
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ac321c33-71f4-4353-9caa-147c04875612||0|0|0|
+-3.4199 68.7087
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-03f47bf1-9288-476a-82d9-9b0dc4013f70||0|0|0|
+-3.6367 68.6545
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-3f29de6a-4fc7-44e5-bb44-3aba9527a303||0|0|0|
+-3.7867 68.6098
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-74de2210-a94c-4572-9e38-ae6f0883bf9d||0|0|0|
+-4.1088 68.6428
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-39e0e9c9-4337-4b6a-8aef-43274819ca24||0|0|0|
+-4.3698 68.4876
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-0714bd00-08d1-4610-ab1f-af1a4b451c36||0|0|0|
+-4.7025 68.3709
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-fa6e77d2-8e82-45fd-b3ae-88b864bf6494||0|0|0|
+0.8795 66.6822
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-8ca921ca-560b-4160-9bd0-0a8beb58c408||0|0|0|
+0.7546 66.6421
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-0238a3be-bb58-4803-8ee7-749c85c66043||0|0|0|
+0.6097 66.602
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-2ab58870-a4b4-4781-8c55-c0a52b127458||0|0|0|
+0.4242 66.5538
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-20be5515-7bee-4b4f-8055-e6d753f9c855||0|0|0|
+0.2394 66.4972
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-9ca96017-2a3f-47e1-9679-20d1184c3b1d||0|0|0|
+0.0147 66.3996
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e71f637e-49af-42c0-951a-0fb2e8054a77||0|0|0|
+-0.1679 66.3587
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-55fbbc56-7047-49e8-905a-783bfaeb444b||0|0|0|
+-0.36 66.48
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-9908dd4e-8e2b-4eba-83ea-54207fe47505||0|0|0|
+-3.9682 69.0911
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-a3533867-7669-4dad-bb73-0c6a949639c1||0|0|0|
+-4.1598 69.0121
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-12a21971-c492-4678-b7a9-9dafbf09e713||0|0|0|
+-4.3569 68.9656
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-533970b3-9f99-46c3-905d-b0fb65673815||0|0|0|
+-4.6176 68.9006
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-fc225a96-04f5-453a-89c0-6c06907b95e8||0|0|0|
+-4.8598 68.8604
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-42a96007-fff2-4ae4-bc44-ccaae764294a||0|0|0|
+-4.982 68.7988
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-7f864123-54ac-432c-a44c-66c437b0856a||0|0|0|
+-5.0975 68.7127
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-63494951-37c8-4db4-adc4-70a2b7b790a8||0|0|0|
+1.3406 66.1244
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-08c6eb89-c689-4171-8380-f22f0b3fd224||0|0|0|
+1.1787 66.1015
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-32f7e51a-a583-434b-afad-5c93b7e10281||0|0|0|
+0.9763 66.0623
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-c792e930-f89b-479a-a335-66af5e41d4b3||0|0|0|
+0.6946 66.0233
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-b93f6699-6909-4bbb-8c45-44124dd54783||0|0|0|
+0.0943 65.9599
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-cdcfd58a-273b-4959-82d4-ae0e6afc0750||0|0|0|
+-4.5177 69.1755
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-bf2f40a3-d7cc-477f-a718-c865d646ab43||0|0|0|
+-4.6963 69.1457
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-9f428e12-16d1-4bd6-b6fd-8cece9b11447||0|0|0|
+-4.8437 69.0835
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-aa412d82-80de-42c7-996e-4a0299f4f2a4||0|0|0|
+-5.1251 69.0087
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f6ec68bb-508f-4e55-9c32-a4f68686cc39||0|0|0|
+-5.411 68.958
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-2e00c39f-c352-4847-b2e5-96e6106d3c22||0|0|0|
+-5.5072 68.8887
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-46b48852-b9c6-4ed4-b091-8a8d3735aefd||0|0|0|
+-5.7316 68.7899
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-fbfaadb6-6c6c-41c8-bfed-496da6c86d83||0|0|0|
+1.5844 65.8696
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-707334ce-e8ec-4250-a0de-32effdfd66e6||0|0|0|
+1.323 65.8154
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-c8cdcb24-3b42-4d4b-9d44-1b6e877afd31||0|0|0|
+1.1023 65.7604
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e90ba90e-dd71-4dd3-8643-a41ebb3a6773||0|0|0|
+0.9045 65.7618
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f25b512c-4820-4ffe-b280-8df103160581||0|0|0|
+-0.08 65.54
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-0b8d3039-c2f0-4385-9b2e-3d537c5da55f||0|0|0|
+0.5085 65.7475
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ee3a4fa1-2443-4f3d-8084-2236f3622145||0|0|0|
+0.2708 65.6994
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-98ac9990-2475-494e-9006-4913dd301c0a||0|0|0|
+0.0536 65.6347
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e5c0a339-d6a8-4c95-83f7-8cacf20a09b7||0|0|0|
+-0.1427 65.5615
+# @DC23n.1n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|50.946|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-dc709da8-ac3f-4f50-af59-341a4294332d||0|0|0|
+-5.0496 69.3562
+# @DC23n.1n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|50.946|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-3038c1bf-e2fc-4fb2-9dd0-1793be43ba3f||0|0|0|
+-5.3738 69.2549
+# @DC23n.1n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|50.946|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-8b389823-22f9-43f7-9bf6-6515af0587d5||0|0|0|
+-5.9236 69.062
+# @DC23n.1n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|50.946|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-6443720d-d42b-4aa0-b17f-755c1111cad5||0|0|0|
+-6.1479 68.9626
+# @DC23n.1n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|50.946|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-0fe09fe9-a438-44ba-a32b-40a8cc5c61de||0|0|0|
+-5.7224 69.1685
+# @DC23n.1n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|50.946|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-4ce2d92c-fd35-470f-bd06-270f5d24fa13||0|0|0|
+1.9456 65.6698
+# @DC23n.1n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|50.946|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d2a3dd97-091b-4651-9266-6400a30c7f85||0|0|0|
+1.8433 65.6224
+# @DC23n.1n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|50.946|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-844bffa1-09c2-4b33-9cd4-4fc78ca18249||0|0|0|
+1.7236 65.5996
+# @DC23n.1n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|50.946|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-446ff854-c22c-4d20-a824-78f97408d31a||0|0|0|
+1.584 65.5687
+# @DC23n.1n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|50.946|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-70c58b00-d5d6-4b19-a78b-4a83291a9982||0|0|0|
+1.1501 65.5243
+# @DC23n.1n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|50.946|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f3f0f956-5c18-47ce-9772-fa02e23dd1df||0|0|0|
+1.0906 65.5085
+# @DC23n.1n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|50.946|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-6bec2f87-f02d-4c50-b1f2-26b0f3673391||0|0|0|
+0.9129 65.4692
+# @DC23n.1n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|50.946|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-64a98aac-0b70-4b53-a91b-1dfa377a574b||0|0|0|
+0.6766 65.4056
+# @DC23n.1n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|50.946|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-b4ee9d23-5463-4c6a-9c44-6c7096332ec0||0|0|0|
+0.5004 65.3657
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-dd307b21-67a8-4d7c-abc5-33e84a227498||0|0|0|
+-5.4989 69.4206
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-4a4b80f7-4528-42fd-a175-70c960b8b67e||0|0|0|
+-5.8291 69.2928
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-8d91ba07-b018-4adf-bf5c-2cdc463d773b||0|0|0|
+-6.0911 69.1927
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-9dd3b59c-9834-4e00-8466-07293bc4cdef||0|0|0|
+-6.4335 69.0112
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-20bd00ad-8795-408e-83a8-282a8acbdcb9||0|0|0|
+2.0727 65.546
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-53361c29-e221-4998-a045-aa1db36a3e37||0|0|0|
+1.8925 65.4998
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e1d9a472-4b2d-4f43-bdbd-79605b3487e4||0|0|0|
+1.6539 65.446
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ff1f63cb-dda8-415d-8967-5d4e7cb37241||0|0|0|
+1.4563 65.4076
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-5ce3805a-faa1-453a-9c44-471273f72fd3||0|0|0|
+1.1407 65.3294
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e559cb41-ff87-4f2e-98d3-42956e9ddb21||0|0|0|
+1.0031 65.2899
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-baa4695b-1969-4e69-9b88-ba5f25fa9d1c||0|0|0|
+0.7691 65.2509
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-1ce600a5-d7dc-433c-b2fd-08078aa49b24||0|0|0|
+-5.0496 69.3562
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-2832e019-313b-4efb-886b-d6ce30890f4b||0|0|0|
+-5.7607 69.8093
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-2830b37a-af74-47d2-8d06-eb89bedf9c90||0|0|0|
+-5.7015 69.6811
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e96a1a0f-8966-41c3-848a-10b989572f3f||0|0|0|
+-5.9151 69.539
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-3d19aaa1-1999-47f0-8a95-2b0a726eb511||0|0|0|
+-6.1516 69.412
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-21012a5a-e8e2-4e97-86eb-c085eb16c219||0|0|0|
+-6.3375 69.3404
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-eec511ff-0f7e-4835-88e6-769f3bf8607b||0|0|0|
+-6.6863 69.2962
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-232ef2bd-38a0-4a98-bba0-58c384f34ed2||0|0|0|
+-6.9466 69.1657
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d6f2aaa3-3728-4819-81b1-71c89f95c2ed||0|0|0|
+2.4187 65.5726
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-0a03c7f7-f21c-4dd9-911e-5e65f6ba3edd||0|0|0|
+2.3967 65.4596
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-81dafca6-6987-4431-91a9-03e60e714882||0|0|0|
+2.3318 65.3875
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-097f67ae-a6e5-43bc-83af-d639f22f27cb||0|0|0|
+2.1278 65.2852
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-1add7b0e-b213-4a27-a906-f2e12a6ebe2f||0|0|0|
+1.9282 65.2151
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-b35e370b-aa8a-44c6-b754-ad90e16856bc||0|0|0|
+1.749 65.1444
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-b3eec3ba-61c9-4b0e-bde1-9d24903bb4c5||0|0|0|
+1.4397 65.1318
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-29c45f82-0aae-48c5-830c-b77b18272d98||0|0|0|
+1.2817 65.0604
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-6d33e692-5f36-4902-a2bc-7f3e865d2742||0|0|0|
+1.1649 65.029
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d0817726-77a1-419a-8f9f-7e57e821ee3d||0|0|0|
+1.0478 64.9813
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-62aaba1d-c13d-4036-9911-471b01e68610||0|0|0|
+-6.9344 64.5812
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-a7bd16ae-f4f6-4aff-ae35-342b9dc1f29b||0|0|0|
+-7.1181 64.5861
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-c8b3ef2b-f81a-4ea0-a74e-c3305e92841a||0|0|0|
+-6.816 64.5917
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-81775728-6445-4580-903a-e618204efd69||0|0|0|
+-6.6635 64.592
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e454d3d6-504a-47c0-be95-66b0912f8fed||0|0|0|
+-6.4784 64.6093
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-b63c0f5e-4ddb-4c6a-960f-e1fcd42e3773||0|0|0|
+-6.7258 64.6257
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e6b992db-6c6a-434a-a002-65936963e790||0|0|0|
+-6.3894 64.6395
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f69209cc-dda2-4219-8b47-636258a64b61||0|0|0|
+-6.2755 64.6644
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-92df0c32-ba5c-45de-8829-0793581e8b2c||0|0|0|
+-5.9372 64.7412
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-b416cef8-1c41-4f1c-a4f2-acff0d90591f||0|0|0|
+-5.87 64.7716
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-7cfb43a4-0116-44fc-8f7d-eea783cc6482||0|0|0|
+-5.7418 64.7946
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-02047b3b-a497-46be-a40a-b100da467fca||0|0|0|
+-5.6825 64.831
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ff4691ea-a890-45ad-ae63-031a59e2d176||0|0|0|
+-5.5708 64.87
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-341d4802-91ef-4a1c-a55b-0d6265ac5f0f||0|0|0|
+-5.5747 64.8714
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-8fe6d6d5-551a-4f26-a859-8624182e3600||0|0|0|
+-5.4553 64.9007
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-c81f01ad-a3e2-4da0-91cb-b2585a969efa||0|0|0|
+-5.3495 64.9236
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-a9a422c0-0bcd-4385-b690-3e3e51d0aa7a||0|0|0|
+-5.2598 64.9636
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-58f65ed5-71a0-43c8-903c-89fde97b73e6||0|0|0|
+-5.1357 64.9902
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-8344b2bf-2c75-4788-bd7d-62585891bd4b||0|0|0|
+-5.0702 65.0296
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-fb08ec01-b4c8-44df-a20a-9582dde1e2b3||0|0|0|
+-4.9881 65.0741
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-2d5ed781-2893-4192-bd4d-696f4f400452||0|0|0|
+-4.9036 65.1071
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-de10b6ce-ec77-4e1d-8850-a11c5bf31864||0|0|0|
+-4.8956 65.119
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-078475da-da2c-4a1a-b3c4-cfe73b7d0e85||0|0|0|
+-4.8638 65.1595
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e4df91a1-047b-4ef5-b13a-109ca4fa9d7c||0|0|0|
+-4.7577 65.1971
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e9159ca4-5f9a-4bc6-9460-3c56deef4582||0|0|0|
+-4.7222 65.2439
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-888b71b9-ddbf-4cd2-b726-56316d1714c8||0|0|0|
+-4.5477 65.2627
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-da14e7dd-bc4e-416e-a427-e190d1a307ec||0|0|0|
+-4.6703 65.2759
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-941f8a15-3384-4c1a-9f2f-2143c3519ba4||0|0|0|
+-4.3478 65.348
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ef192ff0-74ab-451e-8414-5af7557916aa||0|0|0|
+-4.2985 65.3975
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-9fe42cef-a9dc-45d5-931b-3ec08bef152b||0|0|0|
+-4.2063 65.439
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-bfd510c1-fc24-4d85-86af-6eb0f9ebdad1||0|0|0|
+-4.0453 65.5263
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ef79db81-889f-4f42-a588-8fcea00c2f02||0|0|0|
+-4.1027 65.5682
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-87dbccb0-e142-49cf-83bf-5a8bd2374a50||0|0|0|
+-4.0078 65.5794
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-59fe97dd-d920-48ed-a3d8-8605f5bde8a6||0|0|0|
+-3.9335 65.6293
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-9ae10f54-790c-4316-952c-a7578903cb77||0|0|0|
+-3.8125 65.6724
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-86abd4bb-66f0-4cf9-ae6e-9f72a464e40e||0|0|0|
+-3.6799 65.7091
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-1276ac7c-4a8a-4a34-a501-e6c3a63a4e6d||0|0|0|
+-3.5528 65.8701
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-3b352f89-7e2c-4fbe-8b9c-b5cd7ae2135b||0|0|0|
+-3.4628 65.9175
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ee649d03-cf2f-46a3-b11c-29855fd13c77||0|0|0|
+-3.3629 65.9652
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-8918d7ba-3cad-4fe9-8285-acfbde54621b||0|0|0|
+-3.2458 66.0072
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d8b0f5b8-177b-4fbe-af27-fd87dfbe0e2d||0|0|0|
+-3.0678 66.0395
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-a26d4bb1-7a6d-40d7-acd1-1ab97c8cddae||0|0|0|
+-2.7337 66.3361
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-0bda4467-fe3c-4313-a3c5-9dda7c4372e0||0|0|0|
+-2.7729 66.397
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-2082fd1c-ee12-4fee-9f69-4970432ead64||0|0|0|
+-2.2454 66.4673
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-77cc9545-2025-4dd1-81f0-8f7db855d9d0||0|0|0|
+-2.5223 66.4688
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-02606913-4460-42d9-950d-7ff8a9815a31||0|0|0|
+-2.6488 66.5555
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ffdaa796-89d9-4115-b311-7069b60a1e53||0|0|0|
+-2.4274 66.6453
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-504b2632-edb3-4b17-94e2-cb2260087e29||0|0|0|
+-2.3046 66.687
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-66d54045-3a5e-43e5-b609-ee7135a4c61f||0|0|0|
+-2.1887 66.7249
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d787417d-f5e7-43fd-8383-846f7a9733c8||0|0|0|
+-2.355 66.8112
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f91e396c-c0a2-4cb6-8ed3-8f1a71bd5570||0|0|0|
+-2.2176 66.846
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f58fec91-404b-44de-9e8a-583fb8604903||0|0|0|
+-2.2533 66.9635
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-2d6cf1e4-86ed-4303-8316-96551699ad61||0|0|0|
+-2.1315 67.0829
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f7b901d6-f5f4-4abc-a785-20fb38d52ed7||0|0|0|
+-1.8239 67.1881
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-3ba6f33c-2391-44b4-8713-fd755fa79191||0|0|0|
+-1.436 67.2862
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-4ad66944-8580-4b35-8452-080952e7015e||0|0|0|
+-1.5071 67.3711
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-2b3dbe8d-9b49-47fd-965d-544ab8c8f5b7||0|0|0|
+-1.3719 67.3961
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-0b0a8aa7-7ee0-437c-a302-4948a5c5fe09||0|0|0|
+-1.2199 67.4196
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-1471d4ff-5694-4c97-83a6-eade4a1593f5||0|0|0|
+-1.0724 67.4461
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-6671f44f-be20-4f33-98b5-27a8a5f78b9e||0|0|0|
+-1.9752 66.0844
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-3a5be574-66a4-455b-ba6f-93958151b7c8||0|0|0|
+-2.855 65.435
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-98cee1a7-996b-4726-a39e-f6437edb0845||0|0|0|
+-2.9816 65.313
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-bfed3410-1635-49f6-b430-4a7604610d60||0|0|0|
+-3.0447 65.3104
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-de1e8b12-263f-4559-a8ae-e16dbcda07dd||0|0|0|
+-3.1711 65.2943
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-419d96fd-219b-4612-a353-ae600560f8fb||0|0|0|
+-3.215 65.2783
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f92da131-676f-4858-8a55-d37670169db7||0|0|0|
+-3.3235 65.2664
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d8c2a617-4705-44aa-bbf9-3420277845df||0|0|0|
+-3.4511 65.2283
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-9b70fd4c-5bfd-488a-8284-30aec3721d7d||0|0|0|
+-3.6947 65.2148
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-66d7283e-a72f-458b-973a-fb36b13f2271||0|0|0|
+-3.7931 65.1693
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f24f3e2b-2e10-4e62-b40f-952936315b06||0|0|0|
+-6.4823 65.1261
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-0d284091-7a5b-4a11-976f-b2d35d4b3688||0|0|0|
+-3.878 65.1196
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-01017504-3759-426a-9c06-bbc536eb8c30||0|0|0|
+-3.9445 65.0795
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-5fb6ef48-4e12-4e0e-ada9-f119e7fcc5ee||0|0|0|
+-3.9453 65.0159
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-20364375-2eaf-4e92-8e28-5c464b75f5a7||0|0|0|
+-3.9685 64.9993
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-083808d6-696c-4308-876a-34b3ff444754||0|0|0|
+-3.9737 64.9607
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-6be4b799-544d-48dc-b787-36bf9b2f3edb||0|0|0|
+-4.2245 64.9526
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-10b129b7-ac12-4fd9-9699-ac2d883ae2b5||0|0|0|
+-4.2647 64.903
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-7752c21d-f363-488a-98c5-70f69a63273b||0|0|0|
+-4.3556 64.8561
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-7292a502-54b7-4571-afc8-d918c956ea74||0|0|0|
+-4.2399 64.8531
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-7c981524-5bbb-4915-988e-93b72f67ccc3||0|0|0|
+-4.4112 64.8109
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-daaa63fd-556d-48e1-bec7-2122ba29cc7f||0|0|0|
+-4.5083 64.7724
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e1b5db98-36af-41d1-a5e8-600e67d06593||0|0|0|
+-4.6154 64.7633
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-36147676-8dd2-48bd-b927-7138d8dcf51d||0|0|0|
+-4.6212 64.7434
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-cbde24a5-59b1-4181-9444-23641e2aa89e||0|0|0|
+-4.7405 64.7104
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-2c40d7c7-a3d8-4b83-aba5-ed6230fd8649||0|0|0|
+-4.6393 64.7084
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f6acd1b0-30fc-457e-8386-9974a6766bb9||0|0|0|
+-4.8165 64.6644
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e5ac388e-daf8-49d6-ab37-a1e1692d3cc2||0|0|0|
+-4.8167 64.64
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-6c6f2158-c020-4147-a26a-5e824ab153af||0|0|0|
+-4.9076 64.6218
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-3396e055-1dc7-413f-85b3-ec8a985f616c||0|0|0|
+-5.2215 64.6092
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-284348cb-b3fd-4756-ba9d-996eaa469c17||0|0|0|
+-5.0705 64.6039
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-bc976535-34f1-4b5c-a6fd-a513c8002686||0|0|0|
+-5.0496 64.5957
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-bcd6043c-df81-4938-a419-0143665f8e59||0|0|0|
+-5.2514 64.592
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-09f7c63b-3e5b-49fb-acbd-5bddec68c720||0|0|0|
+-5.3485 64.5622
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d0854549-7412-4bc6-83a2-2527a1c17261||0|0|0|
+-5.4935 64.5438
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-68c35c7b-6947-4753-94f2-33ce37db429a||0|0|0|
+-5.5297 64.4942
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-6c348ebe-328e-4626-af69-fb6ea1a74ed5||0|0|0|
+-5.6699 64.4675
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-213c7b0a-65fe-44cb-b993-8c4c93fedb11||0|0|0|
+-5.7987 64.4406
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-02934b09-23a8-4d53-8128-5b4bea9d8267||0|0|0|
+-6.1547 64.4295
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-26a0711f-a506-49bf-85c7-81e13feaec18||0|0|0|
+-6.3105 64.4252
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-91680ebc-d42c-40eb-9f45-42a9f7df3057||0|0|0|
+-5.8825 64.403
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-152b7a8a-5147-4808-a008-d276cf29408c||0|0|0|
+-6.3545 64.3589
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-cc1c7922-ce1c-4fe8-b509-e20f963e8ed7||0|0|0|
+-6.4336 64.3298
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-c0a5afa9-88d1-42ea-8e0d-811705739b83||0|0|0|
+-3.9845 67.6326
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-36a1ff5e-9263-4bfb-b5e7-7b74ad13deb4||0|0|0|
+-3.7952 67.5094
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-096a3edb-e520-4072-8e4c-d3d6400fc049||0|0|0|
+-3.9302 67.4588
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-a80977cc-84ea-4227-bc98-b6ffeaa7b9ca||0|0|0|
+-4.0301 67.3989
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ad060e2e-1d39-4aa0-be12-c1bcbf846cf3||0|0|0|
+-4.0817 67.3359
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-078848b9-5517-400c-a69e-76901642e112||0|0|0|
+-4.1935 67.2858
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-b9c78c6b-7dad-47b2-9b33-1f4bb0f0b2da||0|0|0|
+-3.9417 67.1367
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-56dc51de-97a4-46f7-8d39-4949f86cba9e||0|0|0|
+-3.8601 67.0847
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d35521eb-0d58-4811-a4a6-6cc4fe64fb97||0|0|0|
+-3.9108 67.0216
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-eb7d89e0-cefa-42e4-ac97-639ea966170b||0|0|0|
+-3.9894 66.9738
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-41e3e395-b61f-4c60-b059-cd982387478e||0|0|0|
+-3.9572 66.8994
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-2e83aad3-00ba-48cd-8032-60968d570a38||0|0|0|
+-4.056 66.8425
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-950babb0-44fe-49a1-bc5d-ee9bb0f461be||0|0|0|
+-3.9461 66.8342
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-80f11c3f-7f2f-4617-93be-ec00ab7b633f||0|0|0|
+-3.9711 66.7742
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-cc8d2ef9-cebb-4ee9-ab5d-2ad56445890d||0|0|0|
+-4.1155 66.7372
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-5a290c42-2cf4-432a-b11e-0555f223261d||0|0|0|
+-4.1642 66.6953
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-fb9cf84c-d5a5-4b1c-b6c7-e393e1d130e0||0|0|0|
+-4.1925 66.6918
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-704cd326-00ac-4c44-84c0-9976de542419||0|0|0|
+-4.2953 66.6422
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-35869544-1b69-483e-9a5c-b0a5a10e6e4a||0|0|0|
+-4.3833 66.6001
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-2daa09f3-180d-40fc-af33-6600a09c128e||0|0|0|
+-4.5037 66.5555
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-4c4f89d5-093b-4167-b70f-a85bead8b4ec||0|0|0|
+-4.5643 66.5149
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ad94461f-793e-4b6e-b3c0-f02d7476abcf||0|0|0|
+-4.6025 66.5025
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-13762d30-72bf-4b75-a2b8-2018701d9b32||0|0|0|
+-4.4271 66.3579
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-0814a52e-ba78-48a6-88f4-9efdb89ab8c1||0|0|0|
+-4.5182 66.3202
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-287ce44b-7b46-4660-adde-12464fc9364f||0|0|0|
+-4.5847 66.2684
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-8332c0c0-a342-43cc-87c4-94f4e6e62e81||0|0|0|
+-4.6261 66.2215
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-35ade89f-3960-4857-9f91-e31c5454025b||0|0|0|
+-4.8852 66.1962
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f599b79e-3351-4528-bb84-39d4c10e4ced||0|0|0|
+-4.9491 66.0961
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d6e23879-491d-4f48-b65d-24c94d2bb556||0|0|0|
+-5.0059 66.0487
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-c39fcf45-56d6-4d84-a4e4-847c9f7ca216||0|0|0|
+-4.9686 65.9864
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-b7e5d7a2-8d24-4e36-aba9-72fceed30c64||0|0|0|
+-5.0567 65.9479
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-14055e3e-38a6-47c0-8280-d96096685c04||0|0|0|
+-5.0702 65.9095
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f2cb1b0a-4742-4617-b1d2-602bf1eba48a||0|0|0|
+-5.0606 65.892
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-016a9c7a-6df2-48e3-8d4a-59e7a2fba9ac||0|0|0|
+-5.1323 65.843
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-91248fed-ede5-4ae7-a296-b7981a54b5c5||0|0|0|
+-5.1932 65.8034
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-c468e16d-d551-4db0-b13b-ad9866a7ea70||0|0|0|
+-5.2735 65.7632
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-09fe5099-7ed8-4665-a485-f9b5144f5fd9||0|0|0|
+-5.3495 65.7229
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-08601793-2f5a-4c5c-90c5-e0902bc39f43||0|0|0|
+-5.4946 65.6954
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-0c963137-1b5f-43f5-b545-9b5be6eb7033||0|0|0|
+-5.6075 65.6498
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-a9cb637e-ad59-48d3-8a49-bdb112d90748||0|0|0|
+-5.5704 65.6461
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-5f0e2b10-367d-40f9-9bb6-1edaaab1d3ad||0|0|0|
+-5.6551 65.6166
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-709c5b25-023e-4ff6-9a4e-c81640499a43||0|0|0|
+-5.5832 65.5309
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-3fdda98e-a64b-4222-852c-26281e000c34||0|0|0|
+-5.6349 65.4944
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f2fb4dfb-8b42-460e-8e1d-5dd21d6c3a7c||0|0|0|
+-5.6461 65.4404
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e4f193b1-6e46-4a08-8d61-d6e45d5111d8||0|0|0|
+-5.7337 65.4083
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-61bd1b46-0a18-49d8-bb7a-72369bb9ec3d||0|0|0|
+-5.83 65.3692
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-16c9f6a2-dc73-4683-bafa-3447cbd94afe||0|0|0|
+-5.9601 65.349
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-29799e0a-0518-445c-9bae-9062b3b7669f||0|0|0|
+-5.9193 65.3353
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-c84dda06-a3a7-41e7-81d9-5f545f6ba2fc||0|0|0|
+-6.0026 65.3068
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-94a46751-aef8-45dd-8b8d-885e6846e662||0|0|0|
+-6.0907 65.2674
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-99300eba-ae56-4f23-8d92-9b99b949557a||0|0|0|
+-6.1883 65.2455
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ab9a2924-16d0-47ed-9a8e-fb18d3c9a7f4||0|0|0|
+-6.27 65.2121
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-5ef9d46a-68a6-4341-ac54-ba65a31a98f9||0|0|0|
+-6.3905 65.1878
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-b5458695-70b2-4f7a-a8fa-ff6f262f1936||0|0|0|
+-6.3346 65.1505
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e31cdc76-604a-4114-8fef-00086807c791||0|0|0|
+-6.412 65.1449
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-a0968f5f-0b1b-4afd-aada-ca80f85bb7b0||0|0|0|
+-6.5316 65.1198
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ec16010c-7551-4111-92bf-dda270ed0583||0|0|0|
+-6.6291 65.0948
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-05ae3324-a804-4c07-ba33-fe0be15c62f0||0|0|0|
+-7.4395 65.0417
+# @DC18n.2n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|40.13|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-5e680c95-de34-4c79-be0f-8cbaae75b7c8||0|0|0|
+-7.053 65.0205
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-33c8531e-32bd-4b26-bc59-069ae2c3a025||0|0|0|
+0.6104 66.5946
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e9f953f3-fa18-474d-a7a4-d1140667bca8||0|0|0|
+0.4847 66.5627
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-1e4e6196-8d07-4e0a-9a5c-3e47be1cfea2||0|0|0|
+0.2685 66.4969
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ea514f9f-ed93-40d8-a454-b64dcd9a8412||0|0|0|
+-0.9178 66.1608
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-1a988645-1871-42bf-a6e4-0e446848bb08||0|0|0|
+-1.0964 65.9729
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-444e17bd-07fe-4076-b178-2e571c86b45f||0|0|0|
+-1.2039 65.8311
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-03f3efc9-5551-4439-a5c2-6963718a1b74||0|0|0|
+-1.2367 65.83
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-c1b2c8a5-d55e-48df-a9a3-8b00535d8a85||0|0|0|
+-2.3423 65.2653
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-fb4d403a-9de8-426b-a1d5-7ea185b76693||0|0|0|
+-2.763 65.0185
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ee019986-4c37-4a17-b0c7-c5cd0e1523df||0|0|0|
+-3.678 64.7811
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-2c4d6ffb-32f7-4fca-8805-1fd8cc285eac||0|0|0|
+-4.1789 64.6823
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-7f0d3701-130d-4b19-b3c8-001bb51e950d||0|0|0|
+-4.2745 64.6527
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d95e16da-8645-4e73-a344-205401227541||0|0|0|
+-4.3405 64.6064
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d1e6708f-e04c-4360-b163-9c0ec47b518b||0|0|0|
+-4.4746 64.5722
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d0f87713-f214-4362-b9d1-73642de0e23f||0|0|0|
+-4.4656 64.5389
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f6a47ddb-f57b-4e80-8d78-0e3b8263fbe0||0|0|0|
+-4.3712 64.5225
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-646a9463-a88f-442b-8222-40d9d6be5b5f||0|0|0|
+-4.7723 64.4496
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-c70ccd22-52cb-4da2-812b-6192cf2a9565||0|0|0|
+-4.7957 64.4446
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d7e67eee-2237-4134-90b7-53c9db7904d9||0|0|0|
+-4.8697 64.4206
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-a4b5d8c3-0967-4bfe-948a-cec3fdf2d16a||0|0|0|
+-5.0055 64.39
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-0b53e64f-4aea-4252-8de3-2f48136afd9a||0|0|0|
+-5.1331 64.3643
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f0af40b5-f723-4494-8e46-d925c238fe98||0|0|0|
+-5.2916 64.3445
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ac4bed5d-f0dc-4859-9b62-931ae99c401e||0|0|0|
+-5.4077 64.3063
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-9d3e05b4-2bc3-472a-8347-dd65b2f82fe3||0|0|0|
+-5.6007 64.2863
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-30e98e91-cf32-4f9c-b13c-866d4b22b6dd||0|0|0|
+-5.5267 64.2816
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-55f3a4b9-4000-4b3b-b7b7-e8287b517303||0|0|0|
+-5.7162 64.199
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d27574ff-185f-4444-9d92-fb01c1976470||0|0|0|
+-5.7705 64.159
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d4fe725f-f2e2-4e62-b960-29284074a7b6||0|0|0|
+-5.9288 64.1361
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-bfc15914-a047-457e-b9d5-124af79fa013||0|0|0|
+1.1677 66.1003
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-7af63cb8-d9f5-49a8-94fc-e64cdd00dc61||0|0|0|
+1.0052 66.0679
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-1e8da8aa-e936-4dd4-8db9-bcfd85831f33||0|0|0|
+-0.3089 65.8882
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-65fb6601-bdaa-407f-8fef-9a22a51bca89||0|0|0|
+-0.5883 65.7664
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ca251667-0615-49a9-a99d-66857d016a56||0|0|0|
+-0.5667 65.7497
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e136dc1e-6e6f-42aa-826f-0938619ceb14||0|0|0|
+-0.424 65.5037
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e8d0ea25-3b32-4caa-b826-13b8637303f1||0|0|0|
+-2.6019 64.733
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-0d45519e-12d7-4267-b58d-c6b885513656||0|0|0|
+-2.9735 64.5626
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ed9e1531-5543-49c4-91ec-ecd41fe9218d||0|0|0|
+-3.6742 64.3698
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-b8643221-96cc-46df-a42c-9c34925b7ab3||0|0|0|
+-4.4037 64.2314
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-bec20cf5-3521-40c3-8e0a-fe03626505b5||0|0|0|
+-4.6563 64.1066
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-05bb8477-a86d-4015-92b2-6f2286c2d720||0|0|0|
+-4.9849 64.0842
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-028b5bbb-985a-484b-a21d-49a971473eba||0|0|0|
+-5.2122 64.0209
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-050e946b-7aa3-4d69-9041-73e6387dd779||0|0|0|
+-5.3102 63.9877
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-dac0a80f-4c34-43f1-810e-31975e7cc5fa||0|0|0|
+-5.5349 63.9813
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-99593fd0-9a27-4589-a8da-8b7ec6ede054||0|0|0|
+-5.6737 63.9682
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-9eb44eb5-a271-49f9-bbf7-ff2c801bf6a6||0|0|0|
+0.9187 65.7654
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-27d87a6e-5d79-4a87-a338-a982fd21f538||0|0|0|
+-0.1536 65.5725
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e1d4c35c-9cf8-4205-a54c-389ad10c6daf||0|0|0|
+0.1065 65.2732
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-92185c0a-6c52-4f1f-95db-2b545585c9e1||0|0|0|
+-0.1454 65.2668
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-853f222f-cdff-4c67-900a-d7802d1ec27f||0|0|0|
+0.6296 65.0433
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-c3ff8851-d8ae-4a75-83fc-d99fce31b310||0|0|0|
+-1.2241 64.9213
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-78ab564c-fb8e-4e1c-b5d3-40802665c043||0|0|0|
+-1.2816 64.8832
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-fd435bd1-f0d2-4e38-ad18-6435418881df||0|0|0|
+-1.3915 64.8352
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-fde686b0-af24-4ffe-8167-6ffc272522b8||0|0|0|
+-2.5383 64.3722
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-0b0703c7-8c2e-4c22-90a4-4a1122f2b53c||0|0|0|
+-3.6368 64.0968
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-825073a2-ea2d-44a4-b1d6-d3eb5d42c362||0|0|0|
+-3.9256 64.0417
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ffcefefd-ed9c-4336-9885-cd4438a60a91||0|0|0|
+-5.2628 63.8032
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-782b2413-1fde-4757-9f88-cfaa7a9f9edf||0|0|0|
+2.2774 65.0742
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d0dcce37-b20f-4050-82b7-613762c740d5||0|0|0|
+2.1967 65.0375
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-158adb63-2fe6-4e9e-a712-05e61b5876a6||0|0|0|
+2.1111 65.0369
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-dd7ae28f-a421-4b17-b1e9-232f2632ca0b||0|0|0|
+2.0819 64.9954
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-b2fc22d0-c20a-41d3-817f-12bbc37a3f62||0|0|0|
+1.5427 64.7046
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-b80718ca-b43b-4293-8051-7e691c7eafb8||0|0|0|
+1.49 64.6944
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-6dbcb867-ebf3-4238-ba59-48d5cbab7b9d||0|0|0|
+0.7394 64.4068
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-b58768d8-9877-41dc-8ea1-4140f2da5332||0|0|0|
+0.2787 64.4017
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-9da7ad98-f28f-4be4-8da2-c4acd388a324||0|0|0|
+-0.2308 64.1182
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d06b78f1-f952-4b92-8f77-98d914ec5eac||0|0|0|
+-0.2475 64.1108
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-90e262c5-9418-4b16-b7de-cffd8e888c84||0|0|0|
+-1.946 63.6378
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-03f58986-aac3-46f2-b1ce-634d7fee7e2a||0|0|0|
+-2.6054 63.4939
+# @DC24n.3n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|53.347|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-922d0c9a-870c-4bd2-a867-48fb0a6d2f4d||0|0|0|
+-3.5222 63.2537
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-7da3c562-bd82-4b3d-81a3-30ddc3aae7a4||0|0|0|
+-7.0172 64.8548
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ab222c87-aa81-4c9c-aa27-885bd4169fe3||0|0|0|
+-6.9132 64.8737
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-56115f7b-3722-4b1e-8c19-4a655ebf2b95||0|0|0|
+-6.8079 64.8866
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ca9e03d6-e149-4029-9452-cf114b5a36ac||0|0|0|
+-6.6368 64.8947
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-7deba2e1-ca06-46ae-924d-0999b282d75e||0|0|0|
+-6.4803 64.8998
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-705e47cd-7527-4305-828c-a4683f161494||0|0|0|
+-7.5364 64.909
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f883571d-bc5b-451b-b5ca-20524f3df866||0|0|0|
+-6.3889 64.9245
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ff9b18eb-5322-411f-a0b6-f4352202a7c7||0|0|0|
+-6.2856 64.9464
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-3cabd755-fbcf-4735-893d-88393f269087||0|0|0|
+-6.2298 64.9867
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-3d668c7f-80b1-4ffc-bea1-9749a3982710||0|0|0|
+-5.8959 65.1181
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-7cfbbb03-31ef-48b6-a13a-4428924658cf||0|0|0|
+-5.7685 65.1426
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d8d3621e-d16b-41ca-b56c-2dad95c7d0e3||0|0|0|
+-5.7277 65.1823
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-cb4cec13-250d-4a49-99a4-41da64a2c937||0|0|0|
+-5.6032 65.2115
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-19f9d685-9cb6-45e4-ae75-b7ced834b24d||0|0|0|
+-5.4548 65.2891
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-da50cf35-892d-4f3b-be15-e8a9f471c071||0|0|0|
+-5.3081 65.3159
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-5fc1b290-df10-4dc8-9cd5-084e4ef42b2b||0|0|0|
+-5.2589 65.3621
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-9ce8d2e3-6f37-4f77-8682-62628dd824b9||0|0|0|
+-5.2035 65.4044
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-216b8046-4d83-4905-9154-3e817335c83e||0|0|0|
+-5.1536 65.4444
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-a222dcd3-4368-43a9-96ca-058d6daf3fd2||0|0|0|
+-5.0481 65.5438
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-0c68b2be-9dfa-4057-850d-df45b3c82061||0|0|0|
+-4.8523 65.5694
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-3020b6f2-436a-418c-b97c-a18b8fe015c7||0|0|0|
+-4.7525 65.6074
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-674c1940-6505-471c-a718-405cb2a11693||0|0|0|
+-4.8005 65.67
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f0d34e47-9946-4721-8e18-36a426a37977||0|0|0|
+-4.4954 65.7903
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-85646763-56fb-487e-8eb5-356e71aebb59||0|0|0|
+-4.4654 65.8487
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-26f3055c-7013-4efc-b0aa-bb75c36f7426||0|0|0|
+-4.4063 65.8918
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-bc5e540b-61ff-4863-9fcf-f18c598f9436||0|0|0|
+-4.3794 65.9431
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-8bcbda71-0077-4e5a-be82-986f412d9b4a||0|0|0|
+-4.2087 65.9755
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f069178f-3666-4665-915f-f5fb813c1437||0|0|0|
+-4.0733 66.1522
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f733a3b0-fe3f-4bc6-85f3-9d2e3d01a40b||0|0|0|
+-4.0393 66.1839
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-8f5c0210-497e-42ba-9540-c21fb1986806||0|0|0|
+-3.9583 66.2319
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-95640d30-d392-4a1b-8cd7-73c4ad4253bc||0|0|0|
+-3.8834 66.2736
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-6858ed2d-a72c-4244-8d7d-d3185cc7b48a||0|0|0|
+-3.7902 66.563
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-33b71789-fcff-4300-97a1-487d3dd39385||0|0|0|
+-3.4217 66.6203
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-12f69973-5079-4a91-8743-c0cdaf0faa0b||0|0|0|
+-3.3716 66.6763
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-07d7ac07-0d7f-40d8-a6cf-395ba160d3be||0|0|0|
+-3.3017 66.7254
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|301|999|-999|||0|gpml:UnclassifiedFeature|GPlates-b58f0e27-b649-4257-af67-54f88f275996||0|0|0|
+-3.2566 66.785
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-b5f3118b-9367-459f-a991-4999b40f435d||0|0|0|
+-3.3268 66.8618
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-59fc272c-de01-4822-9109-42501c14e492||0|0|0|
+-3.2815 66.8892
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-4897adab-f54b-4089-820b-d536d19706b0||0|0|0|
+-3.2835 66.9157
+# @DC13n|y|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|33.058|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-26d16563-84ec-4e82-b981-24a60fc184dc||0|0|0|
+-3.2313 66.9701
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-9bfb271d-858d-4127-8ffb-bda0a78931e8||0|0|0|
+-5.3623 68.3545
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d5939cc6-6f94-41fd-a8e7-7e1f6c2001a8||0|0|0|
+-5.3545 68.3358
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-59e1bdf8-3694-4603-a5d5-2a82f6cf2a31||0|0|0|
+-5.8265 67.3321
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-a4d8101a-f6d0-433d-a702-8cdc5302b308||0|0|0|
+-5.8883 67.0592
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-7d5674a4-26fd-439e-9ace-b9b782c6b9f2||0|0|0|
+-6.0046 66.9011
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ea783b8a-f0da-41ec-bce4-1a14072358c1||0|0|0|
+-6.0073 66.7726
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-42316459-91cc-4e15-8c48-88eabb3c3402||0|0|0|
+-6.315 66.4633
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-facb0ac8-c985-45ed-91dc-e363224d581c||0|0|0|
+-6.6797 66.1288
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-621673d8-61ea-4de2-a9a1-9f227bf123c7||0|0|0|
+-6.5875 66.0393
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-10d861aa-c535-419b-b0a4-4b159d1d53e8||0|0|0|
+-6.6667 65.9684
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-5c441651-3e3d-457f-aa7c-9d1369dd4152||0|0|0|
+-6.6663 65.86
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f30f7d78-7120-40c9-b72a-39b7d468bd20||0|0|0|
+-6.6995 65.8216
+# @DC22n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|49.714|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-b73d1283-2abb-40d3-a45e-dd5d0ab62427||0|0|0|
+-6.7817 65.7759
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ec57375f-30d5-49dd-b9cc-282506b48922||0|0|0|
+-4.1146 67.8304
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-22789a62-66a9-41a9-9951-ac6e39b60f06||0|0|0|
+-4.1323 67.8224
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-30dda490-77ee-478b-8299-c73eb7b8bc6f||0|0|0|
+-4.2894 67.7774
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-076c6122-0cf5-491f-b348-92b11a8c5bb5||0|0|0|
+-4.5616 67.4353
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-2af639aa-2a94-42af-ab98-5da58081eaa0||0|0|0|
+-4.5368 67.3537
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d40bba4f-66dd-49fd-88f9-404a3693b401||0|0|0|
+-4.2643 67.2624
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-b5164217-323f-467e-ad82-9209f2f4a9ea||0|0|0|
+-4.3057 67.2323
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-dae8b3fb-d9a6-4b96-bc4a-f2791f814dae||0|0|0|
+-4.4435 67.19
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-1bd97791-3055-4180-9ec1-02622a43005b||0|0|0|
+-4.4678 67.1168
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-b909fed7-cc9a-4f4f-89da-8bda085b3e37||0|0|0|
+-4.5263 67.0648
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-3ca6add4-80eb-4a11-8c3f-165fbe92f76a||0|0|0|
+-4.378 66.9676
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-997adeae-56bf-4871-89df-d74f8215c927||0|0|0|
+-4.4475 66.9144
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f09bc12c-9ac1-4c4a-b297-3b86c20789f2||0|0|0|
+-4.5157 66.8663
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-80aea654-630c-49b4-81c6-61c6f95741f0||0|0|0|
+-4.5867 66.8483
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-40b9597b-97af-41f7-870c-78aa942c9ec6||0|0|0|
+-4.6272 66.8262
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-a0915394-e5b8-49d2-98ac-fec4e256b6c2||0|0|0|
+-4.6272 66.8138
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-60da10a6-aa31-4ea9-ad45-844b6d045924||0|0|0|
+-4.7092 66.7791
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-2a51dfae-8105-45cb-a640-ecbb24f003d2||0|0|0|
+-4.8017 66.7287
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-22cc2f9f-095c-44dd-b073-8ef6336e5585||0|0|0|
+-4.9071 66.6396
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-70470f20-344e-461d-8dee-826827f69114||0|0|0|
+-4.9755 66.5361
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-6fc97772-b0f6-4cf9-9c79-7cdaca910dae||0|0|0|
+-5.1434 66.4118
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-7a1326a1-8d4d-4e99-ba9f-f38f9d11467a||0|0|0|
+-5.3236 66.1555
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-36d7e5fb-06c4-4220-91b9-68dcc8e29db0||0|0|0|
+-5.3188 66.1006
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-1a99d1ba-3754-4a91-bc70-af6580b56c9d||0|0|0|
+-5.3917 66.057
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-d7ce98e4-a19a-4ea7-9dd2-c9fc2c1b5209||0|0|0|
+-5.3854 66.0188
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-39362c24-fa05-4c74-8f90-5f1b94029248||0|0|0|
+-5.4194 66.0117
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-bc46545c-2fea-4caf-8ccd-2b916c3e9c00||0|0|0|
+-5.439 65.9625
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-7b0fe26f-4835-4b71-8d76-2da2e69fe6b9||0|0|0|
+-5.4877 65.9209
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-592490ed-11b4-4ac6-8ac6-fc0cff237207||0|0|0|
+-5.5491 65.8706
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-c8870366-d4a4-4de4-8cfe-32c4bf440eb6||0|0|0|
+-5.6278 65.8303
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e7e3a6ec-a975-4c0e-b2fc-3697e19690c5||0|0|0|
+-5.6972 65.7909
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-a92e6828-a61e-4795-baad-6130d7f9ea71||0|0|0|
+-5.7989 65.693
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-40a8719b-0d8c-43d8-a482-93efdb125b9a||0|0|0|
+-5.8514 65.6573
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-7737a4c8-8cb4-4263-8b78-03fe3793c11d||0|0|0|
+-6.774 65.1958
+# @DC20n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|43.789|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-5336006e-93e2-4a29-8ddf-f230cf0943d1||0|0|0|
+-6.8882 65.1666
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ba1adde8-6f80-45fc-8145-b4de4b359e1c||0|0|0|
+-4.865 67.4883
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-7861a8a4-0a58-463b-9cc1-9fce5ab31472||0|0|0|
+-5.3217 67.1377
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-ae708308-d2a3-422e-895f-11cfa248b18b||0|0|0|
+-5.465 66.882
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-f6d45489-5d41-4202-855d-6284032f84bf||0|0|0|
+-5.399 66.8803
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e42f3232-e3e5-4147-8f1c-9f4918252ba1||0|0|0|
+-5.6448 66.621
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-c97627d0-1165-4c71-b6d8-5edc35e15641||0|0|0|
+-5.909 66.3731
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-0a25b01b-af4a-4949-a47d-b313b3619b51||0|0|0|
+-5.9903 66.2428
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-e0c42e40-b155-4097-9272-c270c7639e7c||0|0|0|
+-5.9798 66.2039
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-62e508f9-71c4-44d8-b85f-135fe5c2183f||0|0|0|
+-6.1689 65.8771
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-1a2ecee0-47a4-4a15-9b28-0aeb9dc47156||0|0|0|
+-6.2797 65.7865
+# @DC21n|o|1|N/A|Gaina++_2009_JGeolSoc|10.1144/0016-76492008-112|47.906|"Magnetic Anomaly"|907|999|-999|||0|gpml:UnclassifiedFeature|GPlates-27edbe2a-2b3a-4784-9faf-18e28dc8c779||0|0|0|
+-6.3507 65.7522
