@@ -19,7 +19,7 @@ When running the notebooks, various files will be produced which by default will
 The fundamental requirement to run these notebooks is to have pygplates installed (compatible with Python 2.7, but not Python 3.X). Installation instructions can be found in the pygplates user documentation.
 Other python modules used by the notebooks are:
 - numpy
-- matplotlib (including the basemap extension, and mpltools add-on)
+- matplotlib (including the basemap extension)
 - pandas
 
 If you have issues or questions, please consider directing them to the GPlates mailing list:
