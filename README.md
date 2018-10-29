@@ -28,4 +28,4 @@ If you have issues or questions, please consider directing them to the GPlates m
 
 #### About 
 These tutorials stem from the work of Simon Williams, Michael Tetley, John Cannon, Michael Chin 
-EarthByte Group, University of Sydney, 2016
+EarthByte Group, University of Sydney, 2016-present
