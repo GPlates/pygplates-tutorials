@@ -22,6 +22,18 @@ Other python modules used by the notebooks are:
 - matplotlib (including the basemap extension)
 - pandas
 
+#### Docker:
+##### build the docker image:
+cd docker
+
+docker build -t gplates/pygplates-notebook .
+
+##### run the docker container:
+cd pygplates-tutorials
+
+docker run -it --rm -p 18888:8888 -v \`pwd\`:/home/workspace gplates/pygplates-notebook
+
+#### Contact:
 If you have issues or questions, please consider directing them to the GPlates mailing list:
 
 ###### gplates-discuss(at)mailman(dot)sydney(dot)edu(dot)au  
