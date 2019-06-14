@@ -40,12 +40,12 @@ RUN apt-get install -y gcc python-pip
 RUN pip install --upgrade pip
 RUN pip install numpy scipy matplotlib jupyter pandas sympy nose
 RUN pip install ipyparallel pyproj==1.9.6 pyshp Pillow
-RUN pip install cython
+RUN pip install moviepy
 
-RUN wget https://github.com/matplotlib/basemap/archive/v1.1.0.tar.gz
-RUN tar -vxf v1.1.0.tar.gz
-RUN cd basemap-1.1.0/ && python setup.py install
-RUN rm -rf basemap-1.1.0/ v1.1.0.tar.gz
+RUN wget https://github.com/matplotlib/basemap/archive/v1.2.0rel.tar.gz
+RUN tar -vxf v1.2.0rel.tar.gz
+RUN cd basemap-1.2.0rel/ && python setup.py install_lib
+RUN rm -rf basemap-1.2.0rel/ v1.2.0rel.tar.gz
 
 RUN apt-get install -y gmt python-tk
 
