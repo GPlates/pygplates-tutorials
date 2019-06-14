@@ -16,3 +16,14 @@ This notebook goes through some examples of how to work with topological plate p
 Working with feature geometries
 #### pygplates-Working-with-Rotation-Poles.ipynb
 Working With Rotation Poles
+#### hotspot-tracking-movie-maker.ipynb
+#### time-latitude-plots.ipynb
+#### track-point-through-topologies.ipynb
+#### velocity-basics.ipynb
+#### velocity-fields.ipynb
+#### plate-tectonics-over-time.ipynb
+Recontruct variable datasets back in time.
+#### mineral-deposits-investigation.ipynb
+A commercially interesting application of all of this data and technology is to find valuable mineral deposits. We might be able to predict where new deposits will be discovered!
+#### plate-tectonics-and-earthquakes.ipynb
+This notebook contains some simple scripts which will help us to understand present day plate tectonics in terms of where earthquakes occur relative to plate boundaries.
