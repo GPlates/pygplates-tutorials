@@ -6,23 +6,32 @@ This repository contains jupyter notebooks which demonstrate how to use pygplate
 ### Step 1: Download the repository 
 
 ```git clone --depth=1 https://github.com/GPlates/pygplates-tutorials.git```
+
 ### Step 2: Pull the gplates/pygplates-notebook docker container 
-(install Docker https://www.docker.com/ if you have not done so.)
+install Docker https://www.docker.com/ if you have not done so.
 
 ```docker pull gplates/pygplates-notebook```
 
+### Step 3: Run the Docker container 
+in the top level folder of this repository(pygplates-tutorials)
+
+```docker run -it --rm -p 18888:8888 -v `pwd`:/home/workspace gplates/pygplates-notebook```
+
+### Step 4: Check the notebooks in a web browser
+
+```http://localhost:18888/tree/notebooks```
+
 ## System Requirements:
+If you would like to run the notebooks in your computer directly(instead of using Docker), you need to install all the required dependencies. 
+
 The fundamental requirement to run these notebooks is to have pygplates installed (compatible with Python 2.7, but not Python 3.X). Installation instructions can be found in the pygplates user documentation.
-Other python modules used by the notebooks are:
-- numpy
-- matplotlib (including the basemap extension)
-- pandas
+Other python modules used by the notebooks are listed in docker/Dockerfile.
 
-## Docker:
-##### build the docker image:
-cd docker
+## Notes about Docker:
+### build the docker image:
 
-docker build -t gplates/pygplates-notebook .
+```cd docker
+docker build -t gplates/pygplates-notebook .```
 
 ##### run the docker container:
 cd pygplates-tutorials
