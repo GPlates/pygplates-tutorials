@@ -46,7 +46,10 @@ docker run -it --rm -p 18888:8888 -v \`pwd\`:/home/workspace gplates/pygplates-n
 docker push gplates/pygplates-notebook
 ```
 
-## Contact and more info:
+## About 
+These tutorials stem from the work of Simon Williams, Michael Tetley, John Cannon and Michael Chin at
+EarthByte Group, University of Sydney, 2016-present
+
 For general information on GPlates, please see the gplates website:
 www.gplates.org
 
@@ -58,7 +61,3 @@ If you have issues or questions, please consider directing them to the GPlates m
 ###### gplates-discuss(at)mailman(dot)sydney(dot)edu(dot)au  
 
 or submit an inquiry here https://www.earthbyte.org/contact-us-3/
-
-## About 
-These tutorials stem from the work of Simon Williams, Michael Tetley, John Cannon and Michael Chin at
-EarthByte Group, University of Sydney, 2016-present
