@@ -48,7 +48,7 @@ RUN cd basemap-1.2.0rel/ && python setup.py install_lib
 RUN rm -rf basemap-1.2.0rel/ v1.2.0rel.tar.gz
 
 RUN apt-get install -y gmt python-tk
-RUN apt-get install -y cython
+RUN apt-get install -y cython statistics
 
 RUN wget https://github.com/SciTools/cartopy/archive/v0.17.0.tar.gz
 RUN tar -vxf v0.17.0.tar.gz
