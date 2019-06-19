@@ -1,10 +1,6 @@
 # pygplates-tutorials
 ## Introduction
 This repository contains jupyter notebooks which demonstrate how to use pygplates in plate tectonic research. The notebooks are designed to be a companion to the pygplates documentation. The documentation contains sample code illustrating in a general sense how to perform certain tasks; these notebooks contain worked examples on actual data sets.
-## Reference
-Please cite this paper if you use the notebooks in your publications.
-
-East, M., Müller, R. D., Williams, S., Zahirovic, S. and Heine, C., **Subduction history reveals Cretaceous slab superflux as a possible cause for the mid-Cretaceous plume pulse and superswell events**, Gondwana Research, in review.
 
 ## Getting Started
 ### Step 1: Download the repository 
