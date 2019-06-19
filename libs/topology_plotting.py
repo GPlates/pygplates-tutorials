@@ -99,7 +99,18 @@ def plot_velocities_and_topologies(pmap,
                                    scale=2000,
                                    lon0=0,
                                    clip_path=None,
-                                   alpha=0.4):
+                                   alpha=0.4,
+                                   MidOceanRidge_alpha=0.4,
+                                   SubductionZone_alpha=0.4,
+                                   FractureZone_alpha=0.4,
+                                   quiver_alpha=0.4,
+                                   MidOceanRidge_color='r',
+                                   SubductionZone_color='k',
+                                   FractureZone_color='b',
+                                   MidOceanRidge_linewidth=3,
+                                   SubductionZone_linewidth=3,
+                                   FractureZone_linewidth=3,
+                                   ):
 
     Xnodes = np.arange(-180,180,res)
     Ynodes = np.arange(-90,90,res)
@@ -148,7 +159,8 @@ def plot_velocities_and_topologies(pmap,
                     for point in geometry.get_points():
                         X.append(point.get_longitude()),Y.append(point.get_latitude())
                     x,y = pmap(X,Y)
-                    pmap.plot(x,y,'r',clip_path=clip_path,linewidth=3,alpha=alpha, zorder=1)     
+                    pmap.plot(x,y,MidOceanRidge_color,clip_path=clip_path,linewidth=MidOceanRidge_linewidth,
+                              alpha=MidOceanRidge_alpha, zorder=1)     
     
         elif shared_boundary_section.get_feature().get_feature_type() == pygplates.FeatureType.create_gpml('SubductionZone'):
             for shared_sub_segment in shared_boundary_section.get_shared_sub_segments():
@@ -159,7 +171,8 @@ def plot_velocities_and_topologies(pmap,
                     for point in geometry.get_points():
                         X.append(point.get_longitude()),Y.append(point.get_latitude())
                     x,y = pmap(X,Y)
-                pmap.plot(x,y,'k',clip_path=clip_path,linewidth=3,alpha=alpha, zorder=1)  
+                pmap.plot(x,y,SubductionZone_color,clip_path=clip_path,linewidth=SubductionZone_linewidth,
+                          alpha=SubductionZone_alpha, zorder=1)  
     
         else: #shared_boundary_section.get_feature().get_feature_type() == pygplates.FeatureType.create_gpml('FractureZone'):
             for shared_sub_segment in shared_boundary_section.get_shared_sub_segments():
@@ -170,7 +183,8 @@ def plot_velocities_and_topologies(pmap,
                     for point in geometry.get_points():
                         X.append(point.get_longitude()),Y.append(point.get_latitude())
                     x,y = pmap(X,Y)
-                pmap.plot(x,y,'b',clip_path=clip_path,linewidth=3,alpha=alpha, zorder=1)  
+                pmap.plot(x,y,FractureZone_color,clip_path=clip_path,linewidth=FractureZone_linewidth,
+                          alpha=FractureZone_alpha, zorder=1)  
     
     lons, lats = np.meshgrid(Xnodes,Ynodes)
     # compute native x,y coordinates of grid.
@@ -180,6 +194,6 @@ def plot_velocities_and_topologies(pmap,
     uproj,vproj,xx,yy = \
     pmap.transform_vector(u,v,Xnodes,Ynodes,54,26,returnxy=True,masked=True)
     # now plot.
-    Q = pmap.quiver(xx,yy,uproj,vproj,scale=scale,clip_path=clip_path,alpha=alpha)
+    Q = pmap.quiver(xx,yy,uproj,vproj,scale=scale,clip_path=clip_path,alpha=quiver_alpha)
     #Q2 = pmap.quiver(xx,yy,uproj,vproj,scale=scale,color='')
     # make quiver key.
