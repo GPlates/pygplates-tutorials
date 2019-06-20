@@ -7,6 +7,9 @@ This repository contains jupyter notebooks which demonstrate how to use pygplate
 
 ```git clone --depth=1 https://github.com/GPlates/pygplates-tutorials.git```
 
+Note that this requires git to be [installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) on your local system.
+Alternatively you can download the repository as a zip file (and extract on your local system).
+
 ### Step 2: Pull the gplates/pygplates-notebook docker container 
 install Docker https://www.docker.com/ if you have not done so.
 
@@ -16,6 +19,8 @@ install Docker https://www.docker.com/ if you have not done so.
 in the top level folder of this repository(pygplates-tutorials)
 
 ```docker run -it --rm -p 18888:8888 -v `pwd`:/home/workspace gplates/pygplates-notebook```
+
+Note that this sets up Docker to display notebooks in your current working directory (where you cloned or downloaded the Github repository).
 
 ### Step 4: Check the notebooks in a web browser
 
