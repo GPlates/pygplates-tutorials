@@ -26,7 +26,7 @@ Note that this sets up Docker to display notebooks in your current working direc
 
 ```http://localhost:18888/tree/notebooks```
 
-Note that if you are running *Docker Toolbox on Windows* then  ```localhost``` with the output of ```docker-machine ip```.
+Note that if you are running *Docker Toolbox on Windows* then replace ```localhost``` with the output of ```docker-machine ip```.
 
 ## System Requirements:
 If you would like to run the notebooks in your computer directly(instead of using Docker), you need to install all the required dependencies. 
