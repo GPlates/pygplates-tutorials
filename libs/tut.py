@@ -29,14 +29,14 @@ rotation_filenames.append(data_root+'Global_EB_250-0Ma_GK07_Matthews_etal.rot')
 rotation_filenames.append(data_root+'Global_EB_410-250Ma_GK07_Matthews_etal.rot')
 
 # Base name of ouput file. 
-coastlines_output_basename = 'tmp/coastlines'
-continental_polygons_output_basename = 'tmp/continental'
-topology_output_basename = 'tmp/topology'
-fracture_zones_output_basename = 'tmp/fracture'
-magnetic_picks_output_basename = 'tmp/magnetic'
-cob_output_basename = 'tmp/cob'
-mineral_output_basename = 'tmp/mineral'
-mineral_AU_output_basename = 'tmp/mineral_au'
+coastlines_output_basename = '/tmp/coastlines'
+continental_polygons_output_basename = '/tmp/continental'
+topology_output_basename = '/tmp/topology'
+fracture_zones_output_basename = '/tmp/fracture'
+magnetic_picks_output_basename = '/tmp/magnetic'
+cob_output_basename = '/tmp/cob'
+mineral_output_basename = '/tmp/mineral'
+mineral_AU_output_basename = '/tmp/mineral_au'
 
 class Tutorial(object):
     def __init__(self):
