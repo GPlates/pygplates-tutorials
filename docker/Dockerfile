@@ -60,14 +60,11 @@ RUN pip install statistics
 ARG CACHE_DATE=2019-02-26
 
 RUN mkdir /home/workspace
-ADD notebook.sh /home/workspace/
-RUN chmod a+x /home/workspace/notebook.sh
+WORKDIR /home/workspace
 
 CMD ["/usr/local/bin/jupyter", "notebook", "--no-browser", "--allow-root", "--ip=0.0.0.0", "--NotebookApp.token=''"]
 
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
-WORKDIR /home/workspace
 
 EXPOSE 8888

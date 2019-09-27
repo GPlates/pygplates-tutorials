@@ -1,3 +1,6 @@
 */.ipynb_checkpoints/*
 */tmp/*
 *.pyc
+*.nc
+*/tmp.*
+*/tmp2.*

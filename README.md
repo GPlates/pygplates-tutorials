@@ -46,7 +46,7 @@ docker build -t gplates/pygplates-notebook .
 ### run the docker container:
 ```
 cd pygplates-tutorials
-docker run -it --rm -p 18888:8888 -v \`pwd\`:/home/workspace gplates/pygplates-notebook
+docker run -it --rm -p 18888:8888 -v `pwd`:/home/workspace gplates/pygplates-notebook
 ```
 ### push Docker image to Dockerhub.com
 ```
