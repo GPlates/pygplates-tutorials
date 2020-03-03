@@ -62,9 +62,22 @@ ARG CACHE_DATE=2019-02-26
 RUN mkdir /home/workspace
 WORKDIR /home/workspace
 
-CMD ["/usr/local/bin/jupyter", "notebook", "--no-browser", "--allow-root", "--ip=0.0.0.0", "--NotebookApp.token=''"]
+# Add Tini. Tini operates as a process subreaper for jupyter. This prevents
+# kernel crashes.
+ENV TINI_VERSION v0.18.0
+ADD https://github.com/krallin/tini/releases/download/v0.18.0/tini /usr/bin/tini
+RUN chmod +x /usr/bin/tini
+ENTRYPOINT ["/usr/bin/tini", "--"]
+
+RUN useradd -m -s /bin/bash -N mchin
+
+CMD ["/usr/local/bin/jupyter", "notebook", "--no-browser", "--ip=0.0.0.0", "--NotebookApp.token=''"]
 
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 EXPOSE 8888
+
+RUN chown mchin /tmp
+
+USER mchin
