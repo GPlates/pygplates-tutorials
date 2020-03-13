@@ -48,7 +48,7 @@ class Tutorial(object):
         #
         #-----------Use pygplates to carry out the reconstruction 
         #
-        print 'Reconstructing coastlines...'
+        print('Reconstructing coastlines...')
         pygplates.reconstruct(
                 coastlines_filename, 
                 rotation_filenames, 
@@ -60,7 +60,7 @@ class Tutorial(object):
         #
         #-----------Use pygplates to carry out the reconstruction 
         #
-        print 'Reconstructing continental polygons...'
+        print('Reconstructing continental polygons...')
         pygplates.reconstruct(
                 continental_polygons_filename, 
                 rotation_filenames, 
@@ -84,7 +84,7 @@ class Tutorial(object):
                 self.anchor_plate)
     
     def reconstruct_topologies(self):
-        print 'Resolving topologies'
+        print('Resolving topologies')
         rotation_model = pygplates.RotationModel(rotation_filenames)
         pygplates.resolve_topologies(
                 topology_filenames, 
@@ -95,7 +95,7 @@ class Tutorial(object):
     
     def reconstruct_fracture_zones(self):
         # Use pygplates to carry out the reconstruction 
-        print 'Reconstructing fracture zones...'
+        print('Reconstructing fracture zones...')
         pygplates.reconstruct(
                 fracture_zones_filename, 
                 rotation_filenames, 
@@ -118,7 +118,7 @@ class Tutorial(object):
         for filename in magnetic_picks_filenames:
             cnt+=1
             # Use pygplates to carry out the reconstruction
-            print 'Reconstructing magnetic picks in {}'.format(filename) 
+            print('Reconstructing magnetic picks in {}'.format(filename) )
             sys.stdout.flush()
             pygplates.reconstruct(
                     filename, 
@@ -128,7 +128,7 @@ class Tutorial(object):
                     self.anchor_plate)
     
     def plot_continental_polygons(self, m, facecolor=None, edgecolor='none', alpha=0.1):
-        print 'Plotting continental polygons...'
+        print('Plotting continental polygons...')
         m.readshapefile(continental_polygons_output_basename,'continental',drawbounds=False,color='w')   
         for s in zip(m.continental,m.continental_info):
             poly = Polygon(
@@ -140,7 +140,7 @@ class Tutorial(object):
             plt.gca().add_patch(poly)
     
     def plot_coastlines(self, m, facecolor='default', edgecolor='k', alpha=0.4):
-        print 'Plotting coastlines...'
+        print('Plotting coastlines...')
 
         m.readshapefile(coastlines_output_basename,'coastlines',drawbounds=False,color='w')   
         for s in zip(m.coastlines,m.coastlines_info):
@@ -156,7 +156,7 @@ class Tutorial(object):
             plt.gca().add_patch(poly)
     
     def plot_topologies(self, m, facecolor='default', edgecolor='w', alpha=0.2):
-        print 'Plotting topologies...'
+        print('Plotting topologies...')
         m.readshapefile(topology_output_basename,'topologies',drawbounds=False,color='w')  
         for s in zip(m.topologies,m.topologies_info):
             fc = facecolor
@@ -172,7 +172,7 @@ class Tutorial(object):
     
     def plot_fracture_zones(self, m, color='default'):
         #plot the fracture zones
-        print 'Plotting fracture zones...'
+        print('Plotting fracture zones...')
         m.readshapefile(fracture_zones_output_basename,'fracture',drawbounds=False,color='b')
         for s in zip(m.fracture,m.fracture_info):
             fc = color

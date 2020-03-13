@@ -1,61 +1,40 @@
-FROM ubuntu:16.04
-
+FROM ubuntu:18.04
 MAINTAINER Michael Chin
 
+#Install ubuntu libraires and packages
 RUN apt-get update -y
+RUN apt-get install -y wget python3-pip
 
-RUN apt-get install -y git python-pip gcc
+#Download pygplates and install it
+ADD pygplates_2.0_amd64.deb .
+RUN apt-get install -y ./pygplates_2.0_amd64.deb
+RUN rm pygplates_2.0_amd64.deb
 
-RUN pip install -U setuptools
-RUN pip install -U pip
-RUN pip install jupyter
-RUN pip install netcdf4
-RUN pip install colorlover
-
-RUN apt-get install -y wget
-# install dependencies for pygplates
-RUN apt-get install -y libglew-dev
-RUN apt-get install -y python2.7-dev
-RUN apt-get install -y libboost-dev libboost-python-dev libboost-thread-dev \ 
-    libboost-program-options-dev libboost-test-dev libboost-system-dev
-RUN apt-get install -y libqt4-dev
-RUN apt-get install -y libgdal-dev
-RUN apt-get install -y libcgal-dev
-RUN apt-get install -y libproj-dev
-RUN apt-get install -y libqwt-dev
-RUN apt-get install -y libxrender-dev libice-dev libsm-dev libfreetype6-dev libfontconfig1-dev
-
-# use wget to get the correct pygplates package from sourceforge
-RUN wget http://sourceforge.net/projects/gplates/files/pygplates/beta-revision-18/pygplates-ubuntu-xenial_2.1_1_amd64.deb
-
-# use dpkg to install 
-RUN dpkg -i pygplates-ubuntu-xenial_2.1_1_amd64.deb
-
-RUN rm pygplates-ubuntu-xenial_2.1_1_amd64.deb
-
-Env PYTHONPATH ${PYTHONPATH}:/usr/lib:/usr/lib/pygplates/revision18/
+Env PYTHONPATH ${PYTHONPATH}:/usr/lib:/usr/lib/pygplates/revision26/
 
 # install all the python and ipython notebook requirements
-RUN apt-get install -y gcc python-pip
-RUN pip install --upgrade pip
-RUN pip install numpy scipy matplotlib jupyter pandas sympy nose
-RUN pip install ipyparallel pyproj==1.9.6 pyshp Pillow
-RUN pip install moviepy
+RUN pip3 install --upgrade pip
+RUN pip3 install numpy scipy matplotlib jupyter pandas sympy nose
+RUN pip3 install ipyparallel pyproj pyshp Pillow
+RUN pip3 install moviepy
 
-RUN wget https://github.com/matplotlib/basemap/archive/v1.2.0rel.tar.gz
-RUN tar -vxf v1.2.0rel.tar.gz
-RUN cd basemap-1.2.0rel/ && python setup.py install_lib
-RUN rm -rf basemap-1.2.0rel/ v1.2.0rel.tar.gz
+RUN apt-get install libgeos-dev
+RUN wget https://github.com/matplotlib/basemap/archive/v1.2.1rel.tar.gz
+RUN tar -vxf v1.2.1rel.tar.gz
+RUN cd basemap-1.2.1rel/ && python3 setup.py install_lib
+RUN rm -rf basemap-1.2.1rel/ v1.2.1rel.tar.gz
 
-RUN apt-get install -y gmt python-tk
-RUN apt-get install -y cython
+RUN pip3 install Cython
+RUN apt-get install -y libproj-dev
+RUN wget https://github.com/SciTools/cartopy/archive/v0.18.0b1.tar.gz
+RUN tar -vxf v0.18.0b1.tar.gz
+RUN cd cartopy-0.18.0b1/ && python3 setup.py install
+RUN rm -rf cartopy-0.18.0b1/ v0.18.0b1.tar.gz
 
-RUN wget https://github.com/SciTools/cartopy/archive/v0.17.0.tar.gz
-RUN tar -vxf v0.17.0.tar.gz
-RUN cd cartopy-0.17.0/ && python setup.py install
-RUN rm -rf cartopy-0.17.0/ v0.17.0.tar.gz
+RUN pip3 install statistics netCDF4
 
-RUN pip install statistics
+RUN pip3 uninstall -y shapely
+RUN pip3 install shapely --no-binary shapely
 
 ARG CACHE_DATE=2019-02-26
 

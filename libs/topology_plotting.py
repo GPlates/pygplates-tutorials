@@ -8,11 +8,7 @@ def make_GPML_velocity_feature(Long,Lat):
 # Long and Lat are assumed to be 1d arrays. 
 
     # Add points to a multipoint geometry
-    SeedPoints = zip(Lat,Long)
-    points = []
-    for j in range(0,len(SeedPoints)):
-        points.append(SeedPoints[j])
-    multi_point = pygplates.MultiPointOnSphere(points)
+    multi_point = pygplates.MultiPointOnSphere([(float(lat),float(lon)) for lat, lon in zip(Lat,Long)])
 
     # Create a feature containing the multipoint feature, and defined as MeshNode type
     meshnode_feature = pygplates.Feature(pygplates.FeatureType.create_from_qualified_string('gpml:MeshNode'))
@@ -42,7 +38,7 @@ def get_plate_velocities(velocity_domain_features,
     all_velocities = []
 
     # Partition our velocity domain features into our topological plate polygons at the current 'time'.
-    plate_partitioner = pygplates.PlatePartitioner(topology_features, rotation_model, time)
+    plate_partitioner = pygplates.PlatePartitioner(topology_features, rotation_model, float(time))
 
     for velocity_domain_feature in velocity_domain_features:
 
@@ -61,7 +57,7 @@ def get_plate_velocities(velocity_domain_features,
                     partitioning_plate_id = partitioning_plate.get_feature().get_reconstruction_plate_id()
 
                     # Get the stage rotation of partitioning plate from 'time + delta_time' to 'time'.
-                    equivalent_stage_rotation = rotation_model.get_rotation(time, partitioning_plate_id, time + delta_time)
+                    equivalent_stage_rotation = rotation_model.get_rotation(float(time), partitioning_plate_id, time + float(delta_time))
 
                     # Calculate velocity at the velocity domain point.
                     # This is from 'time + delta_time' to 'time' on the partitioning plate.
@@ -140,7 +136,7 @@ def plot_velocities_and_topologies(pmap,
     # We generate both the resolved topology boundaries and the boundary sections between them.
     resolved_topologies = []
     shared_boundary_sections = []
-    pygplates.resolve_topologies(topology_features, rotation_model, resolved_topologies, time, shared_boundary_sections)
+    pygplates.resolve_topologies(topology_features, rotation_model, resolved_topologies, float(time), shared_boundary_sections)
     
     # create a dateline wrapper object
     wrapper = pygplates.DateLineWrapper(lon0)

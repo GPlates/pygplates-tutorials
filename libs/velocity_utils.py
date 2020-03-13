@@ -6,11 +6,7 @@ def make_GPML_velocity_feature(Long,Lat):
 # Long and Lat are assumed to be 1d arrays. 
 
     # Add points to a multipoint geometry
-    SeedPoints = zip(Lat,Long)
-    points = []
-    for j in range(0,len(SeedPoints)):
-        points.append(SeedPoints[j])
-    multi_point = pygplates.MultiPointOnSphere(points)
+    multi_point = pygplates.MultiPointOnSphere([(float(lat),float(lon)) for lat, lon in zip(Lat,Long)])
 
     # Create a feature containing the multipoint feature, and defined as MeshNode type
     meshnode_feature = pygplates.Feature(pygplates.FeatureType.create_from_qualified_string('gpml:MeshNode'))

@@ -96,7 +96,7 @@ def fill_inpaint(array,invalid=None,max_iter=5,tol=0.5,kernel_size=1,method='loc
     replaced_old = np.zeros( n_nans, dtype=np.float64)
     # depending on kernel type, fill kernel array
     if method == 'localmean':
-        print 'kernel_size', kernel_size
+        print('kernel_size', kernel_size)
         for i in xrange(2*kernel_size+1):
             for j in xrange(2*kernel_size+1):
                 kernel[i,j] = 1
@@ -121,7 +121,7 @@ def fill_inpaint(array,invalid=None,max_iter=5,tol=0.5,kernel_size=1,method='loc
     # make several passes
     # until we reach convergence
     for it in xrange(max_iter):
-        print 'iteration', it
+        print('iteration', it)
         # for each NaN element
         for k in xrange(n_nans):
             i = inans[k]
