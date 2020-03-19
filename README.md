@@ -13,12 +13,12 @@ Alternatively you can download the repository as a zip file (and extract on your
 ### Step 2: Pull the gplates/pygplates-notebook docker container 
 install Docker https://www.docker.com/ if you have not done so.
 
-```docker pull gplates/pygplates-notebook```
+```docker pull gplates/pygplates-tutorials```
 
 ### Step 3: Run the Docker container 
 in the top level folder of this repository(pygplates-tutorials)
 
-```docker run -it --rm -p 18888:8888 -v `pwd`:/home/workspace gplates/pygplates-notebook```
+```docker run -it --rm -p 18888:8888 -v `pwd`:/home/workspace gplates/pygplates-tutorials```
 
 Note that this sets up Docker to display notebooks in your current working directory (where you cloned or downloaded the Github repository).
 
@@ -31,8 +31,10 @@ Note that if you are running *Docker Toolbox on Windows* then replace ```localho
 ## System Requirements:
 If you would like to run the notebooks in your computer directly(instead of using Docker), you need to install all the required dependencies. 
 
-The fundamental requirement to run these notebooks is to have pygplates installed (compatible with Python 2.7, but not Python 3.X). Installation instructions can be found in the pygplates user documentation.
-Other python modules used by the notebooks are listed in docker/Dockerfile.
+The fundamental requirement to run these notebooks is to have pygplates for python3 installed. Installation instructions can be found in the pygplates user documentation.
+Other python modules and libraries used by the notebooks are listed in docker/Dockerfile.
+
+It is strongly recommended to use Docker container to run these notebooks.
 
 ## Notes about Docker:
 You don't need to read this section unless you are interested in learning a bit about Docker.
@@ -40,17 +42,17 @@ You don't need to read this section unless you are interested in learning a bit 
 ### build the docker image:
 ```
 cd docker
-docker build -t gplates/pygplates-notebook .
+docker build -t gplates/pygplates-tutorials .
 ```
 
 ### run the docker container:
 ```
 cd pygplates-tutorials
-docker run -it --rm -p 18888:8888 -v `pwd`:/home/workspace gplates/pygplates-notebook
+docker run -it --rm -p 18888:8888 -v `pwd`:/home/workspace gplates/pygplates-tutorials
 ```
 ### push Docker image to Dockerhub.com
 ```
-docker push gplates/pygplates-notebook
+docker push gplates/pygplates-tutorials
 ```
 
 ## About 
@@ -63,8 +65,6 @@ www.gplates.org
 The pygplates documentation can be found here:
 www.gplates.org/docs/pygplates/index.html
 
-If you have issues or questions, please consider directing them to the GPlates mailing list:
-
-###### gplates-discuss(at)mailman(dot)sydney(dot)edu(dot)au  
+If you have issues or questions, you may post the questions in GPlates online forum https://discourse.gplates.org. 
 
 or submit an inquiry here https://www.earthbyte.org/contact-us-3/
