@@ -48,7 +48,7 @@ ADD https://github.com/krallin/tini/releases/download/v0.18.0/tini /usr/bin/tini
 RUN chmod +x /usr/bin/tini
 ENTRYPOINT ["/usr/bin/tini", "--"]
 
-RUN useradd -m -s /bin/bash -N mchin
+RUN useradd -r -s /bin/false -N mchin
 
 CMD ["/usr/local/bin/jupyter", "notebook", "--no-browser", "--ip=0.0.0.0", "--NotebookApp.token=''"]
 
@@ -59,4 +59,7 @@ EXPOSE 8888
 
 RUN chown mchin /tmp
 
+ENV JUPYTER_RUNTIME_DIR /tmp
+ENV JUPYTER_DATA_DIR /tmp
+ADD cartopy_userconfig.py /usr/local/lib/python3.6/dist-packages
 USER mchin
