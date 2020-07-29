@@ -118,7 +118,7 @@ class Tutorial(object):
         for filename in magnetic_picks_filenames:
             cnt+=1
             # Use pygplates to carry out the reconstruction
-            print('Reconstructing magnetic picks in {}'.format(filename) )
+            print(('Reconstructing magnetic picks in {}'.format(filename) ))
             sys.stdout.flush()
             pygplates.reconstruct(
                     filename, 

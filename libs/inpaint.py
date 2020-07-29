@@ -34,7 +34,7 @@ def fill_crystalgrowth(data,invalid):
     dim = len(shape)
     slcs = [slice(None)]*dim
     while np.any(~invalid): # as long as there are any False's in invalid
-       for i in xrange(dim): # do each axis
+       for i in range(dim): # do each axis
           # make slices to shift view one element along the axis
           slcs1 = slcs[:]
           slcs2 = slcs[:]
@@ -96,11 +96,11 @@ def fill_inpaint(array,invalid=None,max_iter=5,tol=0.5,kernel_size=1,method='loc
     replaced_old = np.zeros( n_nans, dtype=np.float64)
     # depending on kernel type, fill kernel array
     if method == 'localmean':
-        print('kernel_size', kernel_size)
-        for i in xrange(2*kernel_size+1):
-            for j in xrange(2*kernel_size+1):
+        print(('kernel_size', kernel_size))
+        for i in range(2*kernel_size+1):
+            for j in range(2*kernel_size+1):
                 kernel[i,j] = 1
-        print(kernel, 'kernel')
+        print((kernel, 'kernel'))
     
     elif method == 'idw':
         kernel = np.array([[0, 0.5, 0.5, 0.5,0],
@@ -108,22 +108,22 @@ def fill_inpaint(array,invalid=None,max_iter=5,tol=0.5,kernel_size=1,method='loc
             [0.5,0.75,1,0.75,0.5],
             [0.5,0.75,0.75,0.5,1],
             [0, 0.5, 0.5 ,0.5 ,0]])
-        print(kernel, 'kernel')
+        print((kernel, 'kernel'))
     
     else:
         raise NotImplementedError('Method not valid. Should be one of [\'localmean\',\'idw\'].')
     
     # fill new array with input elements
-    for i in xrange(array.shape[0]):
-        for j in xrange(array.shape[1]):
+    for i in range(array.shape[0]):
+        for j in range(array.shape[1]):
             filled[i,j] = array[i,j]
     
     # make several passes
     # until we reach convergence
-    for it in xrange(max_iter):
-        print('iteration', it)
+    for it in range(max_iter):
+        print(('iteration', it))
         # for each NaN element
-        for k in xrange(n_nans):
+        for k in range(n_nans):
             i = inans[k]
             j = jnans[k]
 
@@ -132,8 +132,8 @@ def fill_inpaint(array,invalid=None,max_iter=5,tol=0.5,kernel_size=1,method='loc
             n = 0
 
             # loop over the kernel
-            for I in xrange(2*kernel_size+1):
-                for J in xrange(2*kernel_size+1):
+            for I in range(2*kernel_size+1):
+                for J in range(2*kernel_size+1):
 
                     # if we are not out of the boundaries
                     if i+I-kernel_size < array.shape[0] and i+I-kernel_size >= 0:
@@ -158,11 +158,11 @@ def fill_inpaint(array,invalid=None,max_iter=5,tol=0.5,kernel_size=1,method='loc
 
         # check if mean square difference between values of replaced
         #elements is below a certain tolerance
-        print('tolerance', np.mean( (replaced_new-replaced_old)**2 ))
+        print(('tolerance', np.mean( (replaced_new-replaced_old)**2 )))
         if np.mean( (replaced_new-replaced_old)**2 ) < tol:
             break
         else:
-            for l in xrange(n_nans):
+            for l in range(n_nans):
                 replaced_old[l] = replaced_new[l]
     
     return filled
