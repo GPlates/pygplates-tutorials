@@ -36,6 +36,11 @@ RUN pip3 install statistics netCDF4
 RUN pip3 uninstall -y shapely
 RUN pip3 install shapely --no-binary shapely
 
+RUN apt-get update -y
+RUN DEBIAN_FRONTEND="noninteractive" apt-get -y install tzdata
+RUN apt-get install -y git-all
+RUN pip3 install --no-cache-dir --upgrade git+https://github.com/EarthByte/PlateTectonicTools
+
 ARG CACHE_DATE=2019-02-26
 
 RUN mkdir /home/workspace
@@ -50,7 +55,7 @@ ENTRYPOINT ["/usr/bin/tini", "--"]
 
 RUN useradd -r -s /bin/false -N mchin
 
-CMD ["/usr/local/bin/jupyter", "notebook", "--no-browser", "--ip=0.0.0.0", "--NotebookApp.token=''"]
+CMD ["/usr/local/bin/jupyter", "notebook", "--no-browser", "--allow-root", "--ip=0.0.0.0", "--NotebookApp.token=''"]
 
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
@@ -62,4 +67,6 @@ RUN chown mchin /tmp
 ENV JUPYTER_RUNTIME_DIR /tmp
 ENV JUPYTER_DATA_DIR /tmp
 ADD cartopy_userconfig.py /usr/local/lib/python3.6/dist-packages
-USER mchin
+
+#uncomment the line below when making image for public server 
+#USER mchin
