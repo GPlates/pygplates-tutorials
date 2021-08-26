@@ -14,7 +14,7 @@ Env PYTHONPATH ${PYTHONPATH}:/usr/lib:/usr/lib/pygplates/revision26/
 
 # install all the python and ipython notebook requirements
 RUN pip3 install --upgrade pip
-RUN pip3 install numpy scipy matplotlib jupyter pandas sympy nose
+RUN pip3 install numpy scipy matplotlib==3.2 jupyter pandas sympy nose
 RUN pip3 install ipyparallel pyproj pyshp Pillow
 RUN pip3 install moviepy
 
@@ -58,6 +58,7 @@ RUN useradd -r -s /bin/false -N mchin
 CMD ["/usr/local/bin/jupyter", "notebook", "--no-browser", "--allow-root", "--ip=0.0.0.0", "--NotebookApp.token=''"]
 
 # Clean up APT when done.
+RUN apt-get purge -y git-all openssh-client wget git
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 EXPOSE 8888
@@ -68,5 +69,11 @@ ENV JUPYTER_RUNTIME_DIR /tmp
 ENV JUPYTER_DATA_DIR /tmp
 ADD cartopy_userconfig.py /usr/local/lib/python3.6/dist-packages
 
-#uncomment the line below when making image for public server 
+#LOOK HERE!!!!
+#
+##uncomment the lines below when making image for public server 
+#
+
+
 #USER mchin
+#ENV JUPYTER_GPLATES true
