@@ -1,43 +1,43 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 MAINTAINER Michael Chin
 
 #Install ubuntu libraires and packages
 RUN apt-get update -y
 RUN apt-get install -y wget python3-pip
+RUN DEBIAN_FRONTEND="noninteractive" apt-get -y install tzdata
 
 #Download pygplates and install it
-ADD pygplates_2.0_amd64.deb .
-RUN apt-get install -y ./pygplates_2.0_amd64.deb
-RUN rm pygplates_2.0_amd64.deb
+ADD pygplates-py3-ubuntu-focal_2.2_1_amd64.deb .
+RUN apt-get install -y ./pygplates-py3-ubuntu-focal_2.2_1_amd64.deb
+RUN rm pygplates-py3-ubuntu-focal_2.2_1_amd64.deb
 
-Env PYTHONPATH ${PYTHONPATH}:/usr/lib:/usr/lib/pygplates/revision26/
+Env PYTHONPATH ${PYTHONPATH}:/usr/lib:/usr/lib/pygplates/revision28/
 
 # install all the python and ipython notebook requirements
 RUN pip3 install --upgrade pip
-RUN pip3 install numpy scipy matplotlib==3.2 jupyter pandas sympy nose
+RUN pip3 install numpy scipy matplotlib jupyter pandas sympy nose
 RUN pip3 install ipyparallel pyproj pyshp Pillow
 RUN pip3 install moviepy
 
 RUN apt-get install libgeos-dev
-RUN wget https://github.com/matplotlib/basemap/archive/v1.2.1rel.tar.gz
-RUN tar -vxf v1.2.1rel.tar.gz
-RUN cd basemap-1.2.1rel/ && python3 setup.py install_lib
-RUN rm -rf basemap-1.2.1rel/ v1.2.1rel.tar.gz
+#RUN wget https://github.com/matplotlib/basemap/archive/v1.2.1rel.tar.gz
+#RUN tar -vxf v1.2.1rel.tar.gz
+#RUN cd basemap-1.2.1rel/ && python3 setup.py install_lib
+#RUN rm -rf basemap-1.2.1rel/ v1.2.1rel.tar.gz
 
 RUN pip3 install Cython
 RUN apt-get install -y libproj-dev
-RUN wget https://github.com/SciTools/cartopy/archive/v0.18.0b1.tar.gz
-RUN tar -vxf v0.18.0b1.tar.gz
-RUN cd cartopy-0.18.0b1/ && python3 setup.py install
-RUN rm -rf cartopy-0.18.0b1/ v0.18.0b1.tar.gz
+#RUN wget https://github.com/SciTools/cartopy/archive/v0.18.0b1.tar.gz
+#RUN tar -vxf v0.18.0b1.tar.gz
+#RUN cd cartopy-0.18.0b1/ && python3 setup.py install
+#RUN rm -rf cartopy-0.18.0b1/ v0.18.0b1.tar.gz
 
-RUN pip3 install statistics netCDF4
+RUN pip3 install statistics netCDF4 cartopy
 
 RUN pip3 uninstall -y shapely
 RUN pip3 install shapely --no-binary shapely
 
 RUN apt-get update -y
-RUN DEBIAN_FRONTEND="noninteractive" apt-get -y install tzdata
 RUN apt-get install -y git-all
 RUN pip3 install --no-cache-dir --upgrade git+https://github.com/EarthByte/PlateTectonicTools
 
@@ -65,9 +65,10 @@ EXPOSE 8888
 
 RUN chown mchin /tmp
 
+ENV MPLCONFIGDIR /tmp
 ENV JUPYTER_RUNTIME_DIR /tmp
 ENV JUPYTER_DATA_DIR /tmp
-ADD cartopy_userconfig.py /usr/local/lib/python3.6/dist-packages
+ADD cartopy_userconfig.py /usr/local/lib/python3.8/dist-packages
 
 #LOOK HERE!!!!
 #
