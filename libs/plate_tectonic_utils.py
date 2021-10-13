@@ -1,5 +1,5 @@
-from mpl_toolkits.basemap import Basemap
 import numpy as np
+
 #
 #---------function definitions----------
 #---------you might want to move along to the main() funtion section. more fun over there---------------
@@ -23,6 +23,7 @@ def get_colour_by_plateid(plate_id):
     }
     return plateid_colours[plate_id%11]
 
+'''
 #function: create mollweide map
 def create_mollweide_map():
     m = Basemap(projection='moll', lon_0=0.0, resolution=None)
@@ -50,3 +51,4 @@ def create_rectangular_map():
     m.drawparallels(np.arange(-90.,91.,15.), labels=[True,True,False,False])
     m.drawmeridians(np.arange(-180.,181.,30.), labels=[False,False,False,True])
     return m
+'''

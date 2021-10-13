@@ -3,8 +3,12 @@ import sys
 
 import matplotlib.pyplot as plt
 import numpy as np
-from mpl_toolkits.basemap import Basemap
 from matplotlib.patches import Polygon
+
+import cartopy.crs as ccrs
+from cartopy.io.shapereader import Reader
+from cartopy.feature import ShapelyFeature
+from shapely.geometry import MultiLineString
 
 import plate_tectonic_utils, velocity_utils
 
@@ -102,7 +106,8 @@ class Tutorial(object):
                 fracture_zones_output_basename+'.shp', 
                 self.reconstruction_time, 
                 self.anchor_plate)
-    
+   
+
     def reconstruct_continent_ocean_boundaries(self):
         # Use pygplates to carry out the reconstruction 
         pygplates.reconstruct(
@@ -111,7 +116,8 @@ class Tutorial(object):
                 cob_output_basename+'.shp', 
                 self.reconstruction_time, 
                 self.anchor_plate)
-    
+
+        
     def reconstruct_magnetic_picks(self):
         sys.stdout.flush()
         cnt=0
@@ -127,116 +133,138 @@ class Tutorial(object):
                     self.reconstruction_time, 
                     self.anchor_plate)
     
-    def plot_continental_polygons(self, m, facecolor=None, edgecolor='none', alpha=0.1):
-        print('Plotting continental polygons...')
-        m.readshapefile(continental_polygons_output_basename,'continental',drawbounds=False,color='w')   
-        for s in zip(m.continental,m.continental_info):
-            poly = Polygon(
-                    s[0],
-                    facecolor=facecolor, #default
-                    edgecolor=edgecolor, #no color
-                    alpha=alpha
-            )
-            plt.gca().add_patch(poly)
     
-    def plot_coastlines(self, m, facecolor='default', edgecolor='k', alpha=0.4):
+    def plot_continental_polygons(self, ax, facecolor=None, edgecolor='none', alpha=0.1):
+        print('Plotting continental polygons...')
+        shape_feature = ShapelyFeature(Reader(continental_polygons_output_basename).geometries(),
+                                ccrs.PlateCarree(), edgecolor=edgecolor)
+        ax.add_feature(shape_feature,facecolor=facecolor, alpha=alpha)
+
+        
+    
+    def plot_coastlines(self, ax, facecolor='default', edgecolor='k', alpha=0.4):
         print('Plotting coastlines...')
 
-        m.readshapefile(coastlines_output_basename,'coastlines',drawbounds=False,color='w')   
-        for s in zip(m.coastlines,m.coastlines_info):
+        for record in Reader(coastlines_output_basename).records():
+            #print(record.attributes)
             fc = facecolor
             if facecolor == 'default':
-                fc = plate_tectonic_utils.get_colour_by_plateid(int(s[1]['PLATEID1']))
-
-            poly = Polygon(
-                    s[0],
-                    facecolor=fc,
-                    edgecolor=edgecolor,
-                    alpha=alpha)
-            plt.gca().add_patch(poly)
+                fc = plate_tectonic_utils.get_colour_by_plateid(int(record.attributes['PLATEID1']))
+            
+            shape_feature = ShapelyFeature([record.geometry], ccrs.PlateCarree(), edgecolor=edgecolor)
+            ax.add_feature(shape_feature,facecolor=fc, alpha=alpha)
+            
     
-    def plot_topologies(self, m, facecolor='default', edgecolor='w', alpha=0.2):
+    def plot_topologies(self, ax, facecolor='default', edgecolor='w', alpha=0.2):
         print('Plotting topologies...')
-        m.readshapefile(topology_output_basename,'topologies',drawbounds=False,color='w')  
-        for s in zip(m.topologies,m.topologies_info):
+        
+        for record in Reader(topology_output_basename).records():
+            #print(record.attributes)
             fc = facecolor
             if facecolor == 'default':
-                fc = plate_tectonic_utils.get_colour_by_plateid(int(s[1]['PLATEID1']))
-
-            poly = Polygon(
-                    s[0],
-                    facecolor=fc,
-                    edgecolor=edgecolor,
-                    alpha=alpha)
-            plt.gca().add_patch(poly)
+                fc = plate_tectonic_utils.get_colour_by_plateid(int(record.attributes['PLATEID1']))
+            
+            shape_feature = ShapelyFeature([record.geometry], ccrs.PlateCarree(), edgecolor=edgecolor)
+            ax.add_feature(shape_feature,facecolor=fc, alpha=alpha)
+        
     
-    def plot_fracture_zones(self, m, color='default'):
+    def plot_fracture_zones(self, ax, color='default'):
         #plot the fracture zones
         print('Plotting fracture zones...')
-        m.readshapefile(fracture_zones_output_basename,'fracture',drawbounds=False,color='b')
-        for s in zip(m.fracture,m.fracture_info):
-            fc = color
+        
+        for record in Reader(fracture_zones_output_basename).records():
+            #print(record.geometry)
+            c=color
             if color == 'default':
-                fc = plate_tectonic_utils.get_colour_by_plateid(int(s[1]['PLATEID1']))
+                c = plate_tectonic_utils.get_colour_by_plateid(int(record.attributes['PLATEID1']))
             
-            m.plot(
-                [x for (x,y) in s[0]],
-                [y for (x,y) in s[0]],
-                color=fc)
+            if type(record.geometry) is MultiLineString:
+                for line in record.geometry:
+                    lon, lat = line.xy
+                    ax.plot(lon,lat,transform=ccrs.Geodetic(),color=c)
+            else:
+                lon, lat = record.geometry.xy
+                ax.plot(lon,lat,transform=ccrs.Geodetic(),color=c)
+            
+                  
     
-    def plot_continent_ocean_boundaries(self, m, color='default'):
-        #plot the fracture zones
-        m.readshapefile(cob_output_basename,'cob',drawbounds=False,color='b')
-        for s in zip(m.cob, m.cob_info):
-            fc = color
+    def plot_continent_ocean_boundaries(self, ax, color='default'):
+        #plot the continent_ocean_boundaries
+        
+        for record in Reader(cob_output_basename).records():
+            #print(record.geometry)
+            c = color
             if color == 'default':
-                fc = plate_tectonic_utils.get_colour_by_plateid(int(s[1]['PLATEID1']))
-
-            m.plot(
-                [x for (x,y) in s[0]],
-                [y for (x,y) in s[0]],
-                color=fc)
+                c = plate_tectonic_utils.get_colour_by_plateid(int(record.attributes['PLATEID1']))
+            
+            if type(record.geometry) is MultiLineString:
+                for line in record.geometry:
+                    lon, lat = line.xy
+                    ax.plot(lon,lat,transform=ccrs.Geodetic(),color=c)
+            else:
+                lon, lat = record.geometry.xy
+                ax.plot(lon,lat,transform=ccrs.Geodetic(),color=c)
+            
+            
+            
     
-    def plot_magnetic_picks(self, m, facecolors='none'):
+    def plot_magnetic_picks(self, ax, facecolors='none'):
         for i in range(1,5):
-            m.readshapefile(magnetic_picks_output_basename+'_{}'.format(i) ,'magnetic_{}'.format(i),drawbounds=False,color='w')
+            reader = Reader(f'{magnetic_picks_output_basename}_{i}')
+            #m.readshapefile(magnetic_picks_output_basename+'_{}'.format(i) ,'magnetic_{}'.format(i),drawbounds=False,color='w')
             import hashlib
             colors=[]
-            for s in getattr(m,'magnetic_{}_info'.format(i)):
-                if all(k in s for k in ['Chron', 'AnomalyEnd']):
+            lons=[]
+            lats=[]
+            for s in reader.records():
+                if all(k in s.attributes for k in ['Chron', 'AnomalyEnd']):
                     #not really colouring by plate id. In fact, it is colouring by Chron+AnomalyEnd
                     colors.append(
-                        plate_tectonic_utils.get_colour_by_plateid(int(hashlib.sha1(s['Chron']+s['AnomalyEnd']).hexdigest(), 16)))
+                        plate_tectonic_utils.get_colour_by_plateid(
+                            int(hashlib.sha1(
+                                (s.attributes['Chron']+s.attributes['AnomalyEnd']).encode('utf-8')).hexdigest(), 16)))
                 else:
                     colors.append(
                         plate_tectonic_utils.get_colour_by_plateid(0))
-            m.scatter(
-                [x for (x,y) in getattr(m,'magnetic_{}'.format(i))],
-                [y for (x,y) in getattr(m,'magnetic_{}'.format(i))],
+                lons.append(s.geometry.x)
+                lats.append(s.geometry.y)
+                
+            ax.scatter(
+                lons,
+                lats,
                 facecolors='none',
                 edgecolor=colors,
+                transform=ccrs.PlateCarree(),
                 #s=.1,
                 zorder=99)
+            
+            
 
-    def plot_mineral_deposits(self, m, facecolors='none'):
-        m.readshapefile(mineral_output_basename,'mineral',drawbounds=False,color='w')
-        m.scatter(
-                [x for (x,y) in m.mineral],
-                [y for (x,y) in m.mineral],
+    def plot_mineral_deposits(self, ax, facecolors='none'):
+        reader = Reader(mineral_output_basename)
+        
+        ax.scatter(
+                [point.x for point in reader.geometries()],
+                [point.y for point in reader.geometries()],
                 facecolors=facecolors,
+                transform=ccrs.PlateCarree(),
                 edgecolors='black',
                 s=30,
                 zorder=99)
-        m.readshapefile(mineral_AU_output_basename,'mineral_au',drawbounds=False,color='w')
-        m.scatter(
-                [x for (x,y) in m.mineral_au],
-                [y for (x,y) in m.mineral_au],
+        
+        reader_au = Reader(mineral_AU_output_basename)
+       
+        ax.scatter(
+                [point.x for point in reader_au.geometries()],
+                [point.y for point in reader_au.geometries()],
                 facecolors=facecolors,
                 edgecolors='gold',
+                transform=ccrs.PlateCarree(),
                 s=30,
                 zorder=99)
+        
     
-    def plot_velocities(self, m):
+    def plot_velocities(self, ax):
         delta_time = 5.
         Xnodes = np.arange(-180,180,5)
         Ynodes = np.arange(-90,90,5)
@@ -274,75 +302,52 @@ class Tutorial(object):
         u = np.asarray([uu]).reshape((Ynodes.shape[0],Xnodes.shape[0]))
         v = np.asarray([vv]).reshape((Ynodes.shape[0],Xnodes.shape[0]))
     
-        # compute native x,y coordinates of grid.
-        x, y = m(Xg, Yg)
-    
-        uproj,vproj,xx,yy = m.transform_vector(u,v,Xnodes,Ynodes,15,15,returnxy=True,masked=True)
-        # now plot.
-        Q = m.quiver(xx,yy,uproj,vproj,scale=1000,color='grey')
+        Q = ax.quiver(Xnodes,Ynodes,u,v,scale=1000,color='grey',transform = ccrs.PlateCarree(), regrid_shape=20)
         # make quiver key.
         qk = plt.quiverkey(Q, 0.95, 1.05, 50, '50 mm/yr', labelpos='W')
 
 
     
-    def create_map(self, name, lat=None, lon=None, width=None, height=None):
+    def create_map(self, name, lon=0):
         if name == 'mollweide':
-            m = Basemap(projection='moll', lon_0=0.0, resolution=None)
-            m.drawparallels(np.arange(-90.,91.,15.), labels=[True,True,False,False])
-            m.drawmeridians(np.arange(-180.,181.,45.), labels=[False,False,False,False])
+            ax = plt.axes(projection=ccrs.Mollweide(central_longitude=lon))
         elif name == 'robinson':
-            m = Basemap(projection='robin',lon_0=0.0,resolution=None)
-            m.drawparallels(np.arange(-90.,91.,15.), labels=[True,True,False,False])
-            m.drawmeridians(np.arange(-180.,181.,45.), labels=[False,False,False,True])
+            ax = plt.axes(projection=ccrs.Robinson(central_longitude=lon))
         else: #'rectangular' and by default
-            if lat:
-                m = Basemap(
-                    projection='cyl',
-                    lat_0=lat,
-                    lon_0=lon,
-                    width=width,
-                    height=height,
-                    resolution=None)
-            else:
-                m = Basemap(
-                    projection='cyl',
-                    llcrnrlat=-90,
-                    urcrnrlat=90,
-                    llcrnrlon=-180.,
-                    urcrnrlon=180.1,
-                    resolution=None)
-            m.drawparallels(np.arange(-90.,91.,15.), labels=[True,True,False,False])
-            m.drawmeridians(np.arange(-180.,181.,30.), labels=[False,False,False,True])
-        return m
+            ax = plt.axes(projection=ccrs.PlateCarree(central_longitude=lon))
+        ax.gridlines()
+        ax.set_global()
+        return ax
     
-    def plot_layers(self, layers, m):
+    
+    def plot_layers(self, layers, ax):
         for layer in layers:
             if layer == 'coastlines':
                 self.reconstruct_coastlines() 
-                self.plot_coastlines(m)
+                self.plot_coastlines(ax)
             elif layer == 'continental_polygons':
                 self.reconstruct_continental_polygons()
-                self.plot_continental_polygons(m)
+                self.plot_continental_polygons(ax)
             elif layer == 'topologies':
                 self.reconstruct_topologies()
-                self.plot_topologies(m)
+                self.plot_topologies(ax)
             elif layer == 'fracture':
                 self.reconstruct_fracture_zones()
-                self.plot_fracture_zones(m)
+                self.plot_fracture_zones(ax)
             elif layer == 'magnetic':
                 self.reconstruct_magnetic_picks()
-                self.plot_magnetic_picks(m)
+                self.plot_magnetic_picks(ax)
             elif layer == 'cob':
                 self.reconstruct_continent_ocean_boundaries()
-                self.plot_continent_ocean_boundaries(m)
+                self.plot_continent_ocean_boundaries(ax)
             elif layer == 'mineral':
                 self.reconstruct_mineral_deposits()
-                self.plot_mineral_deposits(m)
+                self.plot_mineral_deposits(ax)
             elif layer == 'velocities':
-                self.plot_velocities(m)
+                self.plot_velocities(ax)
 
 
-    def plot_earthquakes(self, m, minmag=0.0, maxmag=100.0):
+    def plot_earthquakes(self, ax, minmag=0.0, maxmag=100.0):
         earthquakes = pygplates.FeatureCollection('Data/workshop/Earthquakes/earthquakes_new1.shp')
 
         cm = plt.cm.get_cmap('gnuplot')
@@ -369,12 +374,14 @@ class Tutorial(object):
             sizes.append(35)
             magnitudes.append(mag)
     
-        x, y = m(pt_lon,pt_lat)
+        #x, y = m(pt_lon,pt_lat)
     
-        sc = m.scatter(
-            x, y,
+        sc = ax.scatter(
+            pt_lon,  
+            pt_lat,
             c=colors,
             s=sizes,
+            transform=ccrs.PlateCarree(),
             vmin=min(magnitudes),
             vmax=max(magnitudes),
             cmap=cm,
