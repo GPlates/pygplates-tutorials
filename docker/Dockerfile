@@ -1,80 +1,43 @@
-FROM ubuntu:20.04
-MAINTAINER Michael Chin
+#docker build -f Dockerfile -t gplates/pygplates-tutorials .
 
-#Install ubuntu libraires and packages
-RUN apt-get update -y
-RUN apt-get install -y wget python3-pip
-RUN DEBIAN_FRONTEND="noninteractive" apt-get -y install tzdata
+FROM ubuntu:22.04
+LABEL Michael Chin
 
-#Download pygplates and install it
-ADD pygplates-py3-ubuntu-focal_2.2_1_amd64.deb .
-RUN apt-get install -y ./pygplates-py3-ubuntu-focal_2.2_1_amd64.deb
-RUN rm pygplates-py3-ubuntu-focal_2.2_1_amd64.deb
+#Create some directories to work with
+WORKDIR /build
+RUN mkdir /workspace 
 
-Env PYTHONPATH ${PYTHONPATH}:/usr/lib:/usr/lib/pygplates/revision28/
+RUN apt-get update && apt-get install -y wget bzip2 libgl1-mesa-glx\
+    && wget -qO-  https://micromamba.snakepit.net/api/micromamba/linux-64/latest | tar -xvj bin/micromamba \
+    && touch /root/.bashrc \
+    && ./bin/micromamba shell init -s bash -p /opt/conda  \
+    && grep -v '[ -z "\$PS1" ] && return' /root/.bashrc  > /opt/conda/bashrc   # this line has been modified \
+    && apt-get clean autoremove --yes \
+    && rm -rf /var/lib/{apt,dpkg,cache,log}
 
-# install all the python and ipython notebook requirements
-RUN pip3 install --upgrade pip
-RUN pip3 install numpy scipy matplotlib jupyter pandas sympy nose
-RUN pip3 install ipyparallel pyproj pyshp Pillow
-RUN pip3 install moviepy
+SHELL ["bash", "-l" ,"-c"]
 
-RUN apt-get install libgeos-dev
-#RUN wget https://github.com/matplotlib/basemap/archive/v1.2.1rel.tar.gz
-#RUN tar -vxf v1.2.1rel.tar.gz
-#RUN cd basemap-1.2.1rel/ && python3 setup.py install_lib
-#RUN rm -rf basemap-1.2.1rel/ v1.2.1rel.tar.gz
-
-RUN pip3 install Cython
-RUN apt-get install -y libproj-dev
-#RUN wget https://github.com/SciTools/cartopy/archive/v0.18.0b1.tar.gz
-#RUN tar -vxf v0.18.0b1.tar.gz
-#RUN cd cartopy-0.18.0b1/ && python3 setup.py install
-#RUN rm -rf cartopy-0.18.0b1/ v0.18.0b1.tar.gz
-
-RUN pip3 install statistics netCDF4 cartopy
-
-RUN pip3 uninstall -y shapely
-RUN pip3 install shapely --no-binary shapely
-
-RUN apt-get update -y
-RUN apt-get install -y git-all
-RUN pip3 install --no-cache-dir --upgrade git+https://github.com/EarthByte/PlateTectonicTools
-
-ARG CACHE_DATE=2019-02-26
-
-RUN mkdir /home/workspace
-WORKDIR /home/workspace
-
-# Add Tini. Tini operates as a process subreaper for jupyter. This prevents
-# kernel crashes.
-ENV TINI_VERSION v0.18.0
-ADD https://github.com/krallin/tini/releases/download/v0.18.0/tini /usr/bin/tini
-RUN chmod +x /usr/bin/tini
-ENTRYPOINT ["/usr/bin/tini", "--"]
-
-RUN useradd -r -s /bin/false -N mchin
-
-CMD ["/usr/local/bin/jupyter", "notebook", "--no-browser", "--allow-root", "--ip=0.0.0.0", "--NotebookApp.token=''"]
-
-# Clean up APT when done.
-RUN apt-get purge -y git-all openssh-client wget git
-RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
+RUN source /opt/conda/bashrc && micromamba activate \
+    && micromamba create -n pygplates-tutorials -c conda-forge gplately jupyter moviepy
+     
+#Make the workspace persistant
+VOLUME /workspace
+WORKDIR /workspace
 EXPOSE 8888
 
-RUN chown mchin /tmp
+#Set the path so python can find pygplates
+ENV PYTHONPATH ${PYTHONPATH}:/usr/lib
+ENV PATH "/opt/conda/bin:$PATH"
 
-ENV MPLCONFIGDIR /tmp
-ENV JUPYTER_RUNTIME_DIR /tmp
-ENV JUPYTER_DATA_DIR /tmp
-ADD cartopy_userconfig.py /usr/local/lib/python3.8/dist-packages
+RUN ln -s /opt/conda/etc/profile.d/conda.sh /etc/profile.d/conda.sh
 
-#LOOK HERE!!!!
-#
-##uncomment the lines below when making image for public server 
-#
+ADD startup.sh /
+RUN chmod +x /startup.sh
 
+# Add Tini
+ENV TINI_VERSION v0.19.0
+ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini-amd64 /tini
+RUN chmod +x /tini
+ENTRYPOINT ["/tini", "--"]
+CMD ["/startup.sh"]
 
-#USER mchin
-#ENV JUPYTER_GPLATES true

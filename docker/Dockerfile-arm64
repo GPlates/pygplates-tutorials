@@ -1,0 +1,43 @@
+#docker build -f Dockerfile-arm64 -t gplates/pygplates-tutorials .
+
+FROM arm64v8/ubuntu:22.04
+MAINTAINER Michael Chin
+
+#Create some directories to work with
+WORKDIR /build
+RUN mkdir /workspace 
+
+RUN apt-get update && apt-get install -y wget bzip2 libgl1-mesa-glx\
+    && wget -qO-  https://micromamba.snakepit.net/api/micromamba/linux-aarch64/latest | tar -xvj bin/micromamba \
+    && touch /root/.bashrc \
+    && ./bin/micromamba shell init -s bash -p /opt/conda  \
+    && grep -v '[ -z "\$PS1" ] && return' /root/.bashrc  > /opt/conda/bashrc   # this line has been modified \
+    && apt-get clean autoremove --yes \
+    && rm -rf /var/lib/{apt,dpkg,cache,log}
+
+SHELL ["bash", "-l" ,"-c"]
+
+RUN source /opt/conda/bashrc && micromamba activate \
+    && micromamba create -n pygplates-tutorials -c conda-forge gplately jupyter moviepy
+     
+#Make the workspace persistant
+VOLUME /workspace
+WORKDIR /workspace
+EXPOSE 8888
+
+#Set the path so python can find pygplates
+ENV PYTHONPATH ${PYTHONPATH}:/usr/lib
+ENV PATH "/opt/conda/bin:$PATH"
+
+RUN ln -s /opt/conda/etc/profile.d/conda.sh /etc/profile.d/conda.sh
+
+ADD startup.sh /
+RUN chmod +x /startup.sh
+
+# Add Tini
+ENV TINI_VERSION v0.19.0
+ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini-arm64 /tini
+RUN chmod +x /tini
+ENTRYPOINT ["/tini", "--"]
+CMD ["/startup.sh"]
+
