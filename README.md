@@ -23,19 +23,21 @@ install Docker https://www.docker.com/ if you have not done so.
 
 in the top level folder of this repository(pygplates-tutorials)
 
-`` docker run -it --rm -p 18888:8888 -v `pwd`:/workspace gplates/pygplates-tutorials ``
+`` docker run -it --rm -p 8888:8888 -v `pwd`:/workspace gplates/pygplates-tutorials ``
 
 Note that this sets up Docker to display notebooks in your current working directory (where you cloned or downloaded the Github repository).
 
-### Step 4: Check the notebooks in a web browser
+### Step 4: Open the notebooks in a web browser
 
-`http://localhost:18888/tree/notebooks`
+`http://localhost:8888/tree/notebooks`
 
-Note that if you are running _Docker Toolbox on Windows_ then replace `localhost` with the output of `docker-machine ip`.
+Note that if you are running _Docker Toolbox on Windows_ then replace `localhost` with the output of `docker-machine ip`. The token can be found in the terminal(see the screenshot below).
+
+![jupyter-token](data/jupyter-token.png)
 
 ## Run in Conda environment
 
-- `conda create --name pygplates-tutorials --c conda-forge gplately jupyter moviepy`
+- `conda create --name pygplates-tutorials --c conda-forge gplately jupyter moviepy plate-model-manager`
 - `conda activate pygplates-tutorials`
 - `jupyter notebook`
 - run the notebook at http://localhost:8888
@@ -55,7 +57,7 @@ docker build -t gplates/pygplates-tutorials .
 
 ```
 cd pygplates-tutorials
-docker run -it --rm -p 18888:8888 -v `pwd`:/home/workspace gplates/pygplates-tutorials
+docker run -it --rm -p 8888:8888 -v `pwd`:/home/workspace gplates/pygplates-tutorials
 ```
 
 ### push Docker image to Dockerhub.com
@@ -70,10 +72,10 @@ These tutorials stem from the work of Simon Williams, Michael Tetley, John Canno
 EarthByte Group, University of Sydney, 2016-present
 
 For general information on GPlates, please see the gplates website:
-www.gplates.org
+https://www.gplates.org
 
 The pygplates documentation can be found here:
-www.gplates.org/docs/pygplates/index.html
+https://www.gplates.org/docs/pygplates/index.html
 
 If you have issues or questions, you may post the questions in GPlates online forum https://discourse.gplates.org.
 
