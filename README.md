@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains jupyter notebooks which demonstrate how to use pygplates in plate tectonic research. The notebooks are designed to be a companion to the pygplates documentation. The documentation contains sample code illustrating in a general sense how to perform certain tasks; these notebooks contain worked examples on actual data sets.
+This repository contains a series of Jupyter [notebooks](https://github.com/GPlates/pygplates-tutorials/tree/master/notebooks#readme) which demonstrate how to use pygplates in plate tectonic research. The [notebooks](https://github.com/GPlates/pygplates-tutorials/tree/master/notebooks#readme) were designed to be a valuable companion to the [pygplates documentation](https://www.gplates.org/docs/pygplates/). The documentation contains sample code illustrating in a general sense how to perform certain tasks; these notebooks contain worked examples on actual data sets.
 
 ## Getting Started
 
