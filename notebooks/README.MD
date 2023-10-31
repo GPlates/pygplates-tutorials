@@ -6,6 +6,8 @@ This notebook is a simple pygplates tutorials introduction. You should start fro
 
 The [Plate Model Manager](https://github.com/michaelchin/plate-model-manager#readme) is a dataset manager for plate tectonic models. It is similar to NPM or Conda for software packages. This notebook shows how to use the Plate Model Manager to download and manage plate tectonic reconstruction models.
 
+![compare-models](gallery/compare-models.png)
+
 #### 👉 [pygplates-assign-plateids.ipynb](pygplates-assign-plateids.ipynb)
 
 This notebook will show you how to assign plate ids to PyGPlates features. The plate ids are essential in plate tectonic reconstruction.
@@ -66,7 +68,11 @@ This notebook reconstructs variable datasets back in time.
 
 This notebook reconstructs datra in a GMT file.
 
-## Besides the tutorial notebooks above, we also have two other miscellaneous notebooks which were designed for teaching purpose. You are welcome to check them out.
+## Other Miscellaneous Notebooks
+
+Besides the tutorial notebooks above, we also have two other miscellaneous notebooks which were designed for teaching purpose. You are welcome to check them out.
+
+These online plate tectonic teaching resources are designed to explore (1) where earthquakes occur, (2) how the configuration of continents and plate boundaries has changed through time and (3) in where different sorts of mineral deposits occur in the context of plate boundaries. These online teaching resources are based on Jupyter Notebook which provides an interactive computational environment, in which one can combine code execution, rich text, mathematics, plots and rich media. For more details on the Jupyter Notebook, please see the Jupyter website.
 
 #### 👉 [mineral-deposits-investigation.ipynb](https://github.com/EarthByte/miscellaneous-notebooks/blob/master/notebooks/mineral-deposits-investigation.ipynb)
 
