@@ -13,7 +13,7 @@ from shapely.geometry import MultiLineString
 
 import plate_tectonic_utils, velocity_utils
 
-data_root = 'Data/workshop/'  
+data_root = '../data/workshop/'  
 coastlines_filename = data_root+'Coastlines/Global_coastlines_2015_v1_low_res.shp'
 continental_polygons_filename = data_root+'ContinentalPolygons/Seton_etal_ESR2012_ContinentalPolygons_2012.1.gpmlz'
 topology_filenames = []
@@ -49,7 +49,7 @@ class Tutorial(object):
         self.anchor_plate = 0
         self.delta_time = 5.
         Path("./tmp").mkdir(parents=True, exist_ok=True)
-        if not os.path.isdir('Data'):
+        if not os.path.isdir('../data'):
             raise Exception('The Data folder is not found! Try `ln -s ../data Data` in the "notebooks" folder.')
 
 
@@ -353,7 +353,7 @@ class Tutorial(object):
 
 
     def plot_earthquakes(self, ax, minmag=0.0, maxmag=100.0):
-        earthquakes = pygplates.FeatureCollection('Data/workshop/Earthquakes/earthquakes_new1.shp')
+        earthquakes = pygplates.FeatureCollection('../data/workshop/Earthquakes/earthquakes_new1.shp')
 
         cm = plt.cm.get_cmap('gnuplot')
 

@@ -26,6 +26,7 @@ in the top level folder of this repository(pygplates-tutorials)
 `` docker run -it --rm -p 8888:8888 -v `pwd`:/workspace gplates/pygplates-tutorials ``
 
 Note that this sets up Docker to display notebooks in your current working directory (where you cloned or downloaded the Github repository).
+Also note: 'pwd' may be replaced with the full path to local project repo if there is an issue with docker run command, in particular if no files show up in localhost web GUI of jupyter workspace 
 
 ### Step 4: Open the notebooks in a web browser
 
