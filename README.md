@@ -26,6 +26,7 @@ in the top level folder of this repository(pygplates-tutorials)
 `` docker run -it --rm -p 8888:8888 -v `pwd`:/workspace gplates/pygplates-tutorials ``
 
 Note that this sets up Docker to display notebooks in your current working directory (where you cloned or downloaded the Github repository).
+In PowerShell, replace \`pwd\` with ${PWD}. If neither \`pwd\` nor ${PWD} works for you, you can use the full path to your notebook folder instead.
 
 ### Step 4: Open the notebooks in a web browser
 

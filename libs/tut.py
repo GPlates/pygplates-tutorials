@@ -49,8 +49,17 @@ class Tutorial(object):
         self.anchor_plate = 0
         self.delta_time = 5.
         Path("./tmp").mkdir(parents=True, exist_ok=True)
-        if not os.path.isdir('Data'):
-            raise Exception('The Data folder is not found! Try `ln -s ../data Data` in the "notebooks" folder.')
+        if not os.path.isdir(data_root):
+            alt_data_folder = "../data/workshop/"
+            if os.path.isdir(
+                alt_data_folder
+            ):  # try to see if we can use ""../data/workshop/" instead
+                global data_root
+                data_root = alt_data_folder
+            else:
+                raise Exception(
+                    f'The path "{data_root}" is not a folder. You need to set the global variable "data_root" to the path of data files.'
+                )
 
 
     def reconstruct_coastlines(self):
@@ -353,7 +362,7 @@ class Tutorial(object):
 
 
     def plot_earthquakes(self, ax, minmag=0.0, maxmag=100.0):
-        earthquakes = pygplates.FeatureCollection('Data/workshop/Earthquakes/earthquakes_new1.shp')
+        earthquakes = pygplates.FeatureCollection(f'{data_root}/Earthquakes/earthquakes_new1.shp')
 
         cm = plt.cm.get_cmap('gnuplot')
 
