@@ -32,7 +32,7 @@ This notebook will reconstruct a set of features to their 'birth' time.
 
 This notebook goes through some examples of how to work with topological plate polygons using pygplates.
 
-#### 👉 [gplates-working-with-feature-geometries.ipynb](gplates-working-with-feature-geometries.ipynb)
+#### 👉 [pygplates-working-with-feature-geometries.ipynb](pygplates-working-with-feature-geometries.ipynb)
 
 This notebook shows how to work with feature geometries.
 
