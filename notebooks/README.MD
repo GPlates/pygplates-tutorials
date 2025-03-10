@@ -66,7 +66,7 @@ This notebook reconstructs variable datasets back in time.
 
 #### 👉 [pygplates-reconstruct-gmt-file.ipynb](pygplates-reconstruct-gmt-file.ipynb)
 
-This notebook reconstructs datra in a GMT file.
+This notebook reconstructs data in a GMT file.
 
 ## Other Miscellaneous Notebooks
 
