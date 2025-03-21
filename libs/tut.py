@@ -13,7 +13,18 @@ from shapely.geometry import MultiLineString
 
 import plate_tectonic_utils, velocity_utils
 
-data_root = 'Data/workshop/'  
+data_root = 'Data/workshop/'
+if not os.path.isdir(data_root):
+    alt_data_folder = "../data/workshop/"
+    if os.path.isdir(
+        alt_data_folder
+    ): # try to see if we can use "../data/workshop" instead
+        data_root = alt_data_folder
+    else:
+        raise Exception(
+            f'The path "{data_root}" is not a folder. You need to set the global variable'
+        )
+    
 coastlines_filename = data_root+'Coastlines/Global_coastlines_2015_v1_low_res.shp'
 continental_polygons_filename = data_root+'ContinentalPolygons/Seton_etal_ESR2012_ContinentalPolygons_2012.1.gpmlz'
 topology_filenames = []
@@ -49,12 +60,12 @@ class Tutorial(object):
         self.anchor_plate = 0
         self.delta_time = 5.
         Path("./tmp").mkdir(parents=True, exist_ok=True)
+        global data_root
         if not os.path.isdir(data_root):
             alt_data_folder = "../data/workshop/"
             if os.path.isdir(
                 alt_data_folder
             ):  # try to see if we can use ""../data/workshop/" instead
-                global data_root
                 data_root = alt_data_folder
             else:
                 raise Exception(
